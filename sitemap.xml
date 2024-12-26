@@ -1,1851 +1,1007 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://oi-wiki.org/</loc>
+         <loc>https://cauchychips.github.io/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/edit-landing/</loc>
+         <loc>https://cauchychips.github.io/basic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/</loc>
+         <loc>https://cauchychips.github.io/basic/amortized-analysis/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/amortized-analysis/</loc>
+         <loc>https://cauchychips.github.io/basic/binary-lifting/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/binary-lifting/</loc>
+         <loc>https://cauchychips.github.io/basic/binary/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/binary/</loc>
+         <loc>https://cauchychips.github.io/basic/bubble-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/bubble-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/bucket-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/bucket-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/complexity/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/complexity/</loc>
+         <loc>https://cauchychips.github.io/basic/construction/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/construction/</loc>
+         <loc>https://cauchychips.github.io/basic/counting-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/counting-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/divide-and-conquer/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/divide-and-conquer/</loc>
+         <loc>https://cauchychips.github.io/basic/enumerate/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/enumerate/</loc>
+         <loc>https://cauchychips.github.io/basic/greedy/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/greedy/</loc>
+         <loc>https://cauchychips.github.io/basic/heap-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/heap-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/insertion-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/insertion-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/merge-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/merge-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/prefix-sum/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/prefix-sum/</loc>
+         <loc>https://cauchychips.github.io/basic/quick-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/quick-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/radix-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/radix-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/selection-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/selection-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/shell-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/shell-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/simulate/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/simulate/</loc>
+         <loc>https://cauchychips.github.io/basic/sort-intro/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/sort-intro/</loc>
+         <loc>https://cauchychips.github.io/basic/stl-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/stl-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/tim-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/tim-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/tournament-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/tournament-sort/</loc>
+         <loc>https://cauchychips.github.io/basic/use-of-sort/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/basic/use-of-sort/</loc>
+         <loc>https://cauchychips.github.io/contest/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/</loc>
+         <loc>https://cauchychips.github.io/contest/common-mistakes/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/common-mistakes/</loc>
+         <loc>https://cauchychips.github.io/contest/common-tricks/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/common-tricks/</loc>
+         <loc>https://cauchychips.github.io/contest/dictionary/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/dictionary/</loc>
+         <loc>https://cauchychips.github.io/contest/icpc/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/icpc/</loc>
+         <loc>https://cauchychips.github.io/contest/interaction/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/interaction/</loc>
+         <loc>https://cauchychips.github.io/contest/io/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/io/</loc>
+         <loc>https://cauchychips.github.io/contest/oi/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/oi/</loc>
+         <loc>https://cauchychips.github.io/contest/problems/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/problems/</loc>
+         <loc>https://cauchychips.github.io/contest/problemsetting/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/problemsetting/</loc>
+         <loc>https://cauchychips.github.io/contest/resources/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/resources/</loc>
+         <loc>https://cauchychips.github.io/contest/roadmap/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/contest/roadmap/</loc>
+         <loc>https://cauchychips.github.io/dp/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/</loc>
+         <loc>https://cauchychips.github.io/dp/basic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/basic/</loc>
+         <loc>https://cauchychips.github.io/dp/count/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/count/</loc>
+         <loc>https://cauchychips.github.io/dp/dag/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/dag/</loc>
+         <loc>https://cauchychips.github.io/dp/dynamic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/dynamic/</loc>
+         <loc>https://cauchychips.github.io/dp/interval/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/interval/</loc>
+         <loc>https://cauchychips.github.io/dp/knapsack/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/knapsack/</loc>
+         <loc>https://cauchychips.github.io/dp/memo/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/memo/</loc>
+         <loc>https://cauchychips.github.io/dp/misc/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/misc/</loc>
+         <loc>https://cauchychips.github.io/dp/number/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/number/</loc>
+         <loc>https://cauchychips.github.io/dp/plug/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/plug/</loc>
+         <loc>https://cauchychips.github.io/dp/probability/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/probability/</loc>
+         <loc>https://cauchychips.github.io/dp/state/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/state/</loc>
+         <loc>https://cauchychips.github.io/dp/tree/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/tree/</loc>
+         <loc>https://cauchychips.github.io/dp/opt/monotonous-queue-stack/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/opt/monotonous-queue-stack/</loc>
+         <loc>https://cauchychips.github.io/dp/opt/quadrangle/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/opt/quadrangle/</loc>
+         <loc>https://cauchychips.github.io/dp/opt/slope/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/opt/slope/</loc>
+         <loc>https://cauchychips.github.io/dp/opt/state/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/dp/opt/state/</loc>
+         <loc>https://cauchychips.github.io/intro/about/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/</loc>
+         <loc>https://cauchychips.github.io/intro/docker-deploy/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/2-3-4-tree/</loc>
+         <loc>https://cauchychips.github.io/intro/faq/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/2-3-tree/</loc>
+         <loc>https://cauchychips.github.io/intro/format/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/aa-tree/</loc>
+         <loc>https://cauchychips.github.io/intro/htc/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/avl/</loc>
+         <loc>https://cauchychips.github.io/intro/mirrors/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/b-tree/</loc>
+         <loc>https://cauchychips.github.io/intro/symbol/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/balanced-in-seg/</loc>
+         <loc>https://cauchychips.github.io/intro/thanks/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/binary-heap/</loc>
+         <loc>https://cauchychips.github.io/intro/what-oi-wiki-is-not/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/bit-in-block-array/</loc>
+         <loc>https://cauchychips.github.io/math/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/block-array/</loc>
+         <loc>https://cauchychips.github.io/math/balanced-ternary/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/block-list/</loc>
+         <loc>https://cauchychips.github.io/math/base/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/bplus-tree/</loc>
+         <loc>https://cauchychips.github.io/math/berlekamp-massey/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/bst/</loc>
+         <loc>https://cauchychips.github.io/math/bignum/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/cartesian-tree/</loc>
+         <loc>https://cauchychips.github.io/math/binary-exponentiation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/decompose/</loc>
+         <loc>https://cauchychips.github.io/math/binary-set/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/divide-combine/</loc>
+         <loc>https://cauchychips.github.io/math/bit/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/dividing/</loc>
+         <loc>https://cauchychips.github.io/math/complex/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/dsu-complexity/</loc>
+         <loc>https://cauchychips.github.io/math/coordinate/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/dsu/</loc>
+         <loc>https://cauchychips.github.io/math/fourier-motzkin-elimination/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/ett/</loc>
+         <loc>https://cauchychips.github.io/math/linear-programming/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/fenwick/</loc>
+         <loc>https://cauchychips.github.io/math/matroid/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/finger-tree/</loc>
+         <loc>https://cauchychips.github.io/math/notation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/global-bst/</loc>
+         <loc>https://cauchychips.github.io/math/order-theory/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/hash/</loc>
+         <loc>https://cauchychips.github.io/math/permutation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/heap/</loc>
+         <loc>https://cauchychips.github.io/math/simplex/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/huffman-tree/</loc>
+         <loc>https://cauchychips.github.io/math/young-tableau/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/kdt/</loc>
+         <loc>https://cauchychips.github.io/math/algebra/basic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/lct/</loc>
+         <loc>https://cauchychips.github.io/math/algebra/field-theory/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/leafy-tree/</loc>
+         <loc>https://cauchychips.github.io/math/algebra/group-theory/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/leftist-tree/</loc>
+         <loc>https://cauchychips.github.io/math/algebra/ring-theory/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/li-chao-tree/</loc>
+         <loc>https://cauchychips.github.io/math/algebra/schreier-sims/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/linked-list/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/bell/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/llrbt/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/bernoulli/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/loser-tree/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/catalan/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/monotonous-queue/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/combination/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/monotonous-stack/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/derangement/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/pairing-heap/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/drawer-principle/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/persistent-balanced/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/entringer/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/persistent-block-array/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/eulerian/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/persistent-heap/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/fibonacci/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/persistent-seg/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/graph-enumeration/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/persistent-trie/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/inclusion-exclusion-principle/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/persistent/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/partition/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/pq-tree/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/polya/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/queue/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/stirling/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/rbtree/</loc>
+         <loc>https://cauchychips.github.io/math/combinatorics/vandermonde-convolution/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/sbt/</loc>
+         <loc>https://cauchychips.github.io/math/game-theory/impartial-game/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/seg-beats/</loc>
+         <loc>https://cauchychips.github.io/math/game-theory/intro/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/seg-in-balanced/</loc>
+         <loc>https://cauchychips.github.io/math/game-theory/misere-game/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/seg-in-bit/</loc>
+         <loc>https://cauchychips.github.io/math/game-theory/partizan-game/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/seg-in-seg/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/seg/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/basis/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/sgt/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/char-poly/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/skiplist/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/determinant/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/sparse-table/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/diagonalization/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/splay/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/elementary-operations/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/sqrt-tree/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/jordan/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/stack/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/linear-mapping/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/top-tree/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/matrix/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/treap/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/product/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/tree-decompose/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/vector-space/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/ds/wblt/</loc>
+         <loc>https://cauchychips.github.io/math/linear-algebra/vector/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/basic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/2d/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/bezouts/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/3d/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/congruence-equation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/convex-hull/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/continued-fraction/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/distance/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/crt/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/half-plane/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/discrete-logarithm/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/inverse/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/du/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/misc/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/euclidean/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/nearest-points/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/euler-totient/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/pick/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/fermat/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/random-incremental/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/gcd/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/rotating-calipers/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/inverse/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/scanning/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/lift-the-exponent/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/geometry/triangulation/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/linear-equation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/lucas/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/2-sat/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/meissel-lehmer/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/bcc/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/min-25/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/bfs/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/mobius/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/bi-graph/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/pell-equation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/block-forest/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/pollard-rho/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/chord/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/powerful-number/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/color/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/prime/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/concept/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/primitive-root/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/connectivity/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/quad-residue/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/cut/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/quadratic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/dag/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/residue/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/dfs/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/sieve/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/diff-constraints/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/sqrt-decomposition/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/dmst/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/stern-brocot/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/dominator-tree/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/wilson/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/dsu-on-tree/</loc>
+         <loc>https://cauchychips.github.io/math/number-theory/zhou/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/dynamic-tree-divide/</loc>
+         <loc>https://cauchychips.github.io/math/numerical/gauss/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/euler/</loc>
+         <loc>https://cauchychips.github.io/math/numerical/integral/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/flow/</loc>
+         <loc>https://cauchychips.github.io/math/numerical/interp/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-random-walk/</loc>
+         <loc>https://cauchychips.github.io/math/numerical/newton/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/hamilton/</loc>
+         <loc>https://cauchychips.github.io/math/poly/comp-rev/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/hld/</loc>
+         <loc>https://cauchychips.github.io/math/poly/czt/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/kth-path/</loc>
+         <loc>https://cauchychips.github.io/math/poly/dgf/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/lca/</loc>
+         <loc>https://cauchychips.github.io/math/poly/egf/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/lgv/</loc>
+         <loc>https://cauchychips.github.io/math/poly/elementary-func/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/matrix-tree/</loc>
+         <loc>https://cauchychips.github.io/math/poly/fft/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/max-clique/</loc>
+         <loc>https://cauchychips.github.io/math/poly/fundamental/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/mdst/</loc>
+         <loc>https://cauchychips.github.io/math/poly/fwt/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/min-cycle/</loc>
+         <loc>https://cauchychips.github.io/math/poly/intro/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/mod-shortest-path/</loc>
+         <loc>https://cauchychips.github.io/math/poly/lagrange-inversion/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/mst/</loc>
+         <loc>https://cauchychips.github.io/math/poly/linear-recurrence/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/node/</loc>
+         <loc>https://cauchychips.github.io/math/poly/multipoint-eval-interpolation/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/planar/</loc>
+         <loc>https://cauchychips.github.io/math/poly/newton/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/prufer/</loc>
+         <loc>https://cauchychips.github.io/math/poly/ntt/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/rings-count/</loc>
+         <loc>https://cauchychips.github.io/math/poly/ogf/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/save/</loc>
+         <loc>https://cauchychips.github.io/math/poly/shift/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/scc/</loc>
+         <loc>https://cauchychips.github.io/math/poly/symbolic-method/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/shortest-path/</loc>
+         <loc>https://cauchychips.github.io/math/probability/basic-conception/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/steiner-tree/</loc>
+         <loc>https://cauchychips.github.io/math/probability/concentration-inequality/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/stoer-wagner/</loc>
+         <loc>https://cauchychips.github.io/math/probability/conditional-probability/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/topo/</loc>
+         <loc>https://cauchychips.github.io/math/probability/exp-var/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-ahu/</loc>
+         <loc>https://cauchychips.github.io/math/probability/random-variable/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-basic/</loc>
+         <loc>https://cauchychips.github.io/search/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-center/</loc>
+         <loc>https://cauchychips.github.io/search/alpha-beta/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-centroid/</loc>
+         <loc>https://cauchychips.github.io/search/astar/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-diameter/</loc>
+         <loc>https://cauchychips.github.io/search/backtracking/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-divide/</loc>
+         <loc>https://cauchychips.github.io/search/bfs/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-hash/</loc>
+         <loc>https://cauchychips.github.io/search/bidirectional/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/tree-random-walk/</loc>
+         <loc>https://cauchychips.github.io/search/dfs/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/virtual-tree/</loc>
+         <loc>https://cauchychips.github.io/search/dlx/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/flow/bound/</loc>
+         <loc>https://cauchychips.github.io/search/heuristic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/flow/max-flow/</loc>
+         <loc>https://cauchychips.github.io/search/idastar/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/flow/min-cost/</loc>
+         <loc>https://cauchychips.github.io/search/iterative/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/flow/min-cut/</loc>
+         <loc>https://cauchychips.github.io/search/opt/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-matching/augment/</loc>
+         <loc>https://cauchychips.github.io/string/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-matching/bigraph-match/</loc>
+         <loc>https://cauchychips.github.io/string/ac-automaton/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-matching/bigraph-weight-match/</loc>
+         <loc>https://cauchychips.github.io/string/automaton/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-matching/general-match/</loc>
+         <loc>https://cauchychips.github.io/string/basic/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-matching/general-weight-match/</loc>
+         <loc>https://cauchychips.github.io/string/bm/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/graph/graph-matching/graph-match/</loc>
+         <loc>https://cauchychips.github.io/string/general-sam/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/about/</loc>
+         <loc>https://cauchychips.github.io/string/hash/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/docker-deploy/</loc>
+         <loc>https://cauchychips.github.io/string/kmp/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/faq/</loc>
+         <loc>https://cauchychips.github.io/string/lib-func/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/format/</loc>
+         <loc>https://cauchychips.github.io/string/lyndon/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/htc/</loc>
+         <loc>https://cauchychips.github.io/string/main-lorentz/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/mirrors/</loc>
+         <loc>https://cauchychips.github.io/string/manacher/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/symbol/</loc>
+         <loc>https://cauchychips.github.io/string/match/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/thanks/</loc>
+         <loc>https://cauchychips.github.io/string/minimal-string/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/intro/what-oi-wiki-is-not/</loc>
+         <loc>https://cauchychips.github.io/string/pam/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/</loc>
+         <loc>https://cauchychips.github.io/string/sa-optimal-inplace/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/array/</loc>
+         <loc>https://cauchychips.github.io/string/sa/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/basic/</loc>
+         <loc>https://cauchychips.github.io/string/sam/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/branch/</loc>
+         <loc>https://cauchychips.github.io/string/seq-automaton/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/class/</loc>
+         <loc>https://cauchychips.github.io/string/suffix-bst/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/const/</loc>
+         <loc>https://cauchychips.github.io/string/suffix-tree/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/cpp-other-langs/</loc>
+         <loc>https://cauchychips.github.io/string/trie/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/file-op/</loc>
+         <loc>https://cauchychips.github.io/string/z-func/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/func/</loc>
+         <loc>https://cauchychips.github.io/tools/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/helloworld/</loc>
+         <loc>https://cauchychips.github.io/tools/cmd/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/java-pro/</loc>
+         <loc>https://cauchychips.github.io/tools/compiler/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/java/</loc>
+         <loc>https://cauchychips.github.io/tools/git/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/lambda/</loc>
+         <loc>https://cauchychips.github.io/tools/latex/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/loop/</loc>
+         <loc>https://cauchychips.github.io/tools/oj-tool/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/namespace/</loc>
+         <loc>https://cauchychips.github.io/tools/polygon/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/new/</loc>
+         <loc>https://cauchychips.github.io/tools/special-judge/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/op-overload/</loc>
+         <loc>https://cauchychips.github.io/tools/wsl/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/op/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/atom/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/optimizations/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/clion/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/pas-cpp/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/codeblocks/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/pointer/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/cpeditor/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/python/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/devcpp/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/reference/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/eclipse/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/struct/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/emacs/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/union/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/geany/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/value-category/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/guide/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/var/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/kate/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/npp/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/algorithm/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/sublime/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/associative-container/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/vim/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/bitset/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/vscode/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/container-adapter/</loc>
+         <loc>https://cauchychips.github.io/tools/editor/xcode/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/container/</loc>
+         <loc>https://cauchychips.github.io/tools/judger/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/iterator/</loc>
+         <loc>https://cauchychips.github.io/tools/judger/arbiter/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/pair/</loc>
+         <loc>https://cauchychips.github.io/tools/judger/ccr-plus/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/sequence-container/</loc>
+         <loc>https://cauchychips.github.io/tools/judger/cena/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/string/</loc>
+         <loc>https://cauchychips.github.io/tools/judger/lemon/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/csl/unordered-container/</loc>
+         <loc>https://cauchychips.github.io/tools/testlib/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/pb-ds/</loc>
+         <loc>https://cauchychips.github.io/tools/testlib/checker/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/pb-ds/pq/</loc>
+         <loc>https://cauchychips.github.io/tools/testlib/general/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/lang/pb-ds/tree/</loc>
+         <loc>https://cauchychips.github.io/tools/testlib/generator/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/math/</loc>
+         <loc>https://cauchychips.github.io/tools/testlib/interactor/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/math/balanced-ternary/</loc>
+         <loc>https://cauchychips.github.io/tools/testlib/validator/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/math/base/</loc>
+         <loc>https://cauchychips.github.io/topic/bracket/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/math/berlekamp-massey/</loc>
+         <loc>https://cauchychips.github.io/topic/dsu-app/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/math/bignum/</loc>
+         <loc>https://cauchychips.github.io/topic/rmq/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://oi-wiki.org/math/binary-exponentiation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/binary-set/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/bit/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/complex/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/coordinate/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/fourier-motzkin-elimination/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-programming/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/matroid/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/notation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/order-theory/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/permutation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/simplex/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/young-tableau/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/algebra/basic/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/algebra/field-theory/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/algebra/group-theory/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/algebra/ring-theory/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/algebra/schreier-sims/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/bell/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/bernoulli/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/catalan/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/combination/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/derangement/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/drawer-principle/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/entringer/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/eulerian/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/fibonacci/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/graph-enumeration/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/inclusion-exclusion-principle/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/partition/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/polya/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/stirling/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/combinatorics/vandermonde-convolution/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/game-theory/impartial-game/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/game-theory/intro/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/game-theory/misere-game/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/game-theory/partizan-game/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/basis/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/char-poly/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/determinant/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/diagonalization/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/elementary-operations/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/jordan/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/linear-mapping/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/matrix/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/product/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/vector-space/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/linear-algebra/vector/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/basic/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/bezouts/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/congruence-equation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/continued-fraction/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/crt/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/discrete-logarithm/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/du/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/euclidean/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/euler-totient/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/fermat/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/gcd/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/inverse/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/lift-the-exponent/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/linear-equation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/lucas/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/meissel-lehmer/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/min-25/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/mobius/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/pell-equation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/pollard-rho/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/powerful-number/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/prime/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/primitive-root/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/quad-residue/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/quadratic/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/residue/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/sieve/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/sqrt-decomposition/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/stern-brocot/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/wilson/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/number-theory/zhou/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/numerical/gauss/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/numerical/integral/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/numerical/interp/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/numerical/newton/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/comp-rev/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/czt/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/dgf/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/egf/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/elementary-func/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/fft/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/fundamental/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/fwt/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/intro/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/lagrange-inversion/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/linear-recurrence/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/multipoint-eval-interpolation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/newton/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/ntt/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/ogf/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/shift/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/poly/symbolic-method/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/probability/basic-conception/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/probability/concentration-inequality/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/probability/conditional-probability/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/probability/exp-var/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/math/probability/random-variable/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/15-puzzle/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/cc-basic/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/cdq-divide/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/discrete/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/endianness/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/expression/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/frac-programming/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/garsia-wachs/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/gray-code/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/hill-climbing/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/hoverline/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/job-order/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/josephus/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/kahan-summation/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/main-element/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/mo-algo-2dimen/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/mo-algo-intro/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/mo-algo-on-tree/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/mo-algo-secondary-offline/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/mo-algo-with-bitset/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/mo-algo/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/modifiable-mo-algo/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/odt/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/offline/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/parallel-binsearch/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/rand-technique/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/random/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/rollback-mo-algo/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/simulated-annealing/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/space-optimization/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/misc/two-pointer/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/alpha-beta/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/astar/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/backtracking/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/bfs/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/bidirectional/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/dfs/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/dlx/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/heuristic/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/idastar/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/iterative/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/search/opt/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/ac-automaton/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/automaton/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/basic/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/bm/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/general-sam/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/hash/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/kmp/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/lib-func/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/lyndon/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/main-lorentz/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/manacher/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/match/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/minimal-string/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/pam/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/sa-optimal-inplace/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/sa/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/sam/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/seq-automaton/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/suffix-bst/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/suffix-tree/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/trie/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/string/z-func/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/cmd/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/compiler/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/git/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/latex/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/oj-tool/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/polygon/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/special-judge/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/wsl/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/atom/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/clion/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/codeblocks/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/cpeditor/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/devcpp/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/eclipse/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/emacs/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/geany/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/guide/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/kate/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/npp/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/sublime/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/vim/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/vscode/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/editor/xcode/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/judger/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/judger/arbiter/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/judger/ccr-plus/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/judger/cena/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/judger/lemon/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/testlib/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/testlib/checker/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/testlib/general/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/testlib/generator/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/testlib/interactor/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/tools/testlib/validator/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/topic/bracket/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/topic/dsu-app/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/topic/rmq/</loc>
-         <lastmod>2024-12-26</lastmod>
-    </url>
-    <url>
-         <loc>https://oi-wiki.org/topic/segment-tree-offline/</loc>
+         <loc>https://cauchychips.github.io/topic/segment-tree-offline/</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
 </urlset>
