@@ -10,25 +10,31 @@
       
       
       
+        <link rel="canonical" href="https://cp-algorithms.com/algebra/prime-sieve-linear.html">
       
       
+        <link rel="prev" href="sieve-of-eratosthenes.html">
       
-        <link rel="alternate" type="application/rss+xml" title="Flux RSS" href="/feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="Flux RSS du contenu mis à jour" href="/feed_rss_updated.xml">
       
-      <link rel="icon" href="/favicon.ico">
+        <link rel="next" href="primality_tests.html">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="Flux RSS" href="../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="Flux RSS du contenu mis à jour" href="../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>Algorithms for Competitive Programming</title>
+        <title>Linear Sieve - Algorithms for Competitive Programming</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -47,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -84,6 +90,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#linear-sieve" class="md-skip">
+          Aller au contenu
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -94,7 +105,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="/." title="Algorithms for Competitive Programming" class="md-header__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
+    <a href=".." title="Algorithms for Competitive Programming" class="md-header__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
@@ -114,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Linear Sieve
             
           </span>
         </div>
@@ -186,7 +197,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/index.html" class="md-tabs__link">
+        <a href="../index.html" class="md-tabs__link">
           
   
   Home
@@ -200,17 +211,21 @@
         
   
   
+    
+  
   
     
     
       
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/algebra/binary-exp.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="binary-exp.html" class="md-tabs__link">
           
   
   Algebra
@@ -237,7 +252,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/data_structures/stack_queue_modification.md" class="md-tabs__link">
+        <a href="../data_structures/stack_queue_modification.md" class="md-tabs__link">
           
   
   Data Structures
@@ -258,7 +273,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/dynamic_programming/intro-to-dp.md" class="md-tabs__link">
+        <a href="../dynamic_programming/intro-to-dp.md" class="md-tabs__link">
           
   
   Dynamic Programming
@@ -282,7 +297,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/string/string-hashing.md" class="md-tabs__link">
+        <a href="../string/string-hashing.md" class="md-tabs__link">
           
   
   String Processing
@@ -309,7 +324,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/linear_algebra/linear-system-gauss.md" class="md-tabs__link">
+        <a href="../linear_algebra/linear-system-gauss.md" class="md-tabs__link">
           
   
   Linear Algebra
@@ -336,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/algebra/factorial-divisors.html" class="md-tabs__link">
+        <a href="factorial-divisors.html" class="md-tabs__link">
           
   
   Combinatorics
@@ -363,7 +378,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/num_methods/binary_search.md" class="md-tabs__link">
+        <a href="../num_methods/binary_search.md" class="md-tabs__link">
           
   
   Numerical Methods
@@ -390,7 +405,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/geometry/basic-geometry.md" class="md-tabs__link">
+        <a href="../geometry/basic-geometry.md" class="md-tabs__link">
           
   
   Geometry
@@ -417,7 +432,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/graph/breadth-first-search.md" class="md-tabs__link">
+        <a href="../graph/breadth-first-search.md" class="md-tabs__link">
           
   
   Graphs
@@ -444,7 +459,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sequences/rmq.md" class="md-tabs__link">
+        <a href="../sequences/rmq.md" class="md-tabs__link">
           
   
   Miscellaneous
@@ -480,7 +495,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Algorithms for Competitive Programming" class="md-nav__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
+    <a href=".." title="Algorithms for Competitive Programming" class="md-nav__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
@@ -548,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -569,7 +584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/navigation.html" class="md-nav__link">
+      <a href="../navigation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -590,7 +605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tags.html" class="md-nav__link">
+      <a href="../tags.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -611,7 +626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contrib.md" class="md-nav__link">
+      <a href="../contrib.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -632,7 +647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/code_of_conduct.md" class="md-nav__link">
+      <a href="../code_of_conduct.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -653,7 +668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/preview.html" class="md-nav__link">
+      <a href="../preview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -678,23 +693,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -705,7 +725,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Algebra
@@ -757,7 +777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/binary-exp.html" class="md-nav__link">
+      <a href="binary-exp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -778,7 +798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/euclid-algorithm.html" class="md-nav__link">
+      <a href="euclid-algorithm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -799,7 +819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/extended-euclid-algorithm.html" class="md-nav__link">
+      <a href="extended-euclid-algorithm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -820,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/linear-diophantine-equation.html" class="md-nav__link">
+      <a href="linear-diophantine-equation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -841,7 +861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/fibonacci-numbers.html" class="md-nav__link">
+      <a href="fibonacci-numbers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -867,6 +887,8 @@
                 
   
   
+    
+  
   
   
     
@@ -876,11 +898,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -894,7 +916,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Prime numbers
@@ -908,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/sieve-of-eratosthenes.html" class="md-nav__link">
+      <a href="sieve-of-eratosthenes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -926,10 +948,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/algebra/prime-sieve-linear.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Linear Sieve
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="prime-sieve-linear.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -938,6 +980,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correctness-proof" class="md-nav__link">
+    <span class="md-ellipsis">
+      Correctness Proof
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#runtime-and-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Runtime and Memory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -950,7 +1057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/primality_tests.html" class="md-nav__link">
+      <a href="primality_tests.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -971,7 +1078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factorization.html" class="md-nav__link">
+      <a href="factorization.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1038,7 +1145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/phi-function.html" class="md-nav__link">
+      <a href="phi-function.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1059,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/divisors.html" class="md-nav__link">
+      <a href="divisors.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1126,7 +1233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/module-inverse.html" class="md-nav__link">
+      <a href="module-inverse.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1147,7 +1254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/linear_congruence_equation.html" class="md-nav__link">
+      <a href="linear_congruence_equation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1168,7 +1275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/chinese-remainder-theorem.html" class="md-nav__link">
+      <a href="chinese-remainder-theorem.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1189,7 +1296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/garners-algorithm.html" class="md-nav__link">
+      <a href="garners-algorithm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1210,7 +1317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factorial-modulo.html" class="md-nav__link">
+      <a href="factorial-modulo.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1231,7 +1338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/discrete-log.html" class="md-nav__link">
+      <a href="discrete-log.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1252,7 +1359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/primitive-root.html" class="md-nav__link">
+      <a href="primitive-root.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1273,7 +1380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/discrete-root.html" class="md-nav__link">
+      <a href="discrete-root.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1294,7 +1401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/montgomery_multiplication.html" class="md-nav__link">
+      <a href="montgomery_multiplication.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1361,7 +1468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/balanced-ternary.html" class="md-nav__link">
+      <a href="balanced-ternary.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1382,7 +1489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/gray-code.html" class="md-nav__link">
+      <a href="gray-code.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1449,7 +1556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/bit-manipulation.html" class="md-nav__link">
+      <a href="bit-manipulation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1470,7 +1577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/all-submasks.html" class="md-nav__link">
+      <a href="all-submasks.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1491,7 +1598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/big-integer.html" class="md-nav__link">
+      <a href="big-integer.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1512,7 +1619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/fft.html" class="md-nav__link">
+      <a href="fft.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1533,7 +1640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/polynomial.html" class="md-nav__link">
+      <a href="polynomial.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1554,7 +1661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/continued-fractions.html" class="md-nav__link">
+      <a href="continued-fractions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1575,7 +1682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factoring-exp.html" class="md-nav__link">
+      <a href="factoring-exp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1687,7 +1794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/stack_queue_modification.md" class="md-nav__link">
+      <a href="../data_structures/stack_queue_modification.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1708,7 +1815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/sparse-table.md" class="md-nav__link">
+      <a href="../data_structures/sparse-table.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1775,7 +1882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/disjoint_set_union.md" class="md-nav__link">
+      <a href="../data_structures/disjoint_set_union.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1796,7 +1903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/fenwick.md" class="md-nav__link">
+      <a href="../data_structures/fenwick.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1817,7 +1924,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/sqrt_decomposition.md" class="md-nav__link">
+      <a href="../data_structures/sqrt_decomposition.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1838,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/segment_tree.md" class="md-nav__link">
+      <a href="../data_structures/segment_tree.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1859,7 +1966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/treap.md" class="md-nav__link">
+      <a href="../data_structures/treap.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1880,7 +1987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/sqrt-tree.md" class="md-nav__link">
+      <a href="../data_structures/sqrt-tree.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1901,7 +2008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/randomized_heap.md" class="md-nav__link">
+      <a href="../data_structures/randomized_heap.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1968,7 +2075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/deleting_in_log_n.md" class="md-nav__link">
+      <a href="../data_structures/deleting_in_log_n.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2042,7 +2149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/intro-to-dp.md" class="md-nav__link">
+      <a href="../dynamic_programming/intro-to-dp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2063,7 +2170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/knapsack.md" class="md-nav__link">
+      <a href="../dynamic_programming/knapsack.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2122,7 +2229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/divide-and-conquer-dp.md" class="md-nav__link">
+      <a href="../dynamic_programming/divide-and-conquer-dp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2143,7 +2250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/knuth-optimization.md" class="md-nav__link">
+      <a href="../dynamic_programming/knuth-optimization.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2210,7 +2317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/profile-dynamics.md" class="md-nav__link">
+      <a href="../dynamic_programming/profile-dynamics.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2231,7 +2338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/zero_matrix.md" class="md-nav__link">
+      <a href="../dynamic_programming/zero_matrix.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2343,7 +2450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/string-hashing.md" class="md-nav__link">
+      <a href="../string/string-hashing.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2364,7 +2471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/rabin-karp.md" class="md-nav__link">
+      <a href="../string/rabin-karp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2385,7 +2492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/prefix-function.md" class="md-nav__link">
+      <a href="../string/prefix-function.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2406,7 +2513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/z-function.md" class="md-nav__link">
+      <a href="../string/z-function.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2427,7 +2534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/suffix-array.md" class="md-nav__link">
+      <a href="../string/suffix-array.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2448,7 +2555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/aho_corasick.md" class="md-nav__link">
+      <a href="../string/aho_corasick.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2515,7 +2622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/suffix-tree-ukkonen.md" class="md-nav__link">
+      <a href="../string/suffix-tree-ukkonen.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2536,7 +2643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/suffix-automaton.md" class="md-nav__link">
+      <a href="../string/suffix-automaton.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2557,7 +2664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/lyndon_factorization.md" class="md-nav__link">
+      <a href="../string/lyndon_factorization.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2624,7 +2731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/expression_parsing.md" class="md-nav__link">
+      <a href="../string/expression_parsing.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2645,7 +2752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/manacher.md" class="md-nav__link">
+      <a href="../string/manacher.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2666,7 +2773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/main_lorentz.md" class="md-nav__link">
+      <a href="../string/main_lorentz.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2778,7 +2885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/linear-system-gauss.md" class="md-nav__link">
+      <a href="../linear_algebra/linear-system-gauss.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2799,7 +2906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/determinant-gauss.md" class="md-nav__link">
+      <a href="../linear_algebra/determinant-gauss.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2820,7 +2927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/determinant-kraut.md" class="md-nav__link">
+      <a href="../linear_algebra/determinant-kraut.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2841,7 +2948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/rank-matrix.md" class="md-nav__link">
+      <a href="../linear_algebra/rank-matrix.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2953,7 +3060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factorial-divisors.html" class="md-nav__link">
+      <a href="factorial-divisors.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2974,7 +3081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/binomial-coefficients.md" class="md-nav__link">
+      <a href="../combinatorics/binomial-coefficients.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2995,7 +3102,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/catalan-numbers.md" class="md-nav__link">
+      <a href="../combinatorics/catalan-numbers.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3062,7 +3169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/inclusion-exclusion.md" class="md-nav__link">
+      <a href="../combinatorics/inclusion-exclusion.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3083,7 +3190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/burnside.md" class="md-nav__link">
+      <a href="../combinatorics/burnside.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3104,7 +3211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/stars_and_bars.md" class="md-nav__link">
+      <a href="../combinatorics/stars_and_bars.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3125,7 +3232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/generating_combinations.md" class="md-nav__link">
+      <a href="../combinatorics/generating_combinations.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3192,7 +3299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/bishops-on-chessboard.md" class="md-nav__link">
+      <a href="../combinatorics/bishops-on-chessboard.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3213,7 +3320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/bracket_sequences.md" class="md-nav__link">
+      <a href="../combinatorics/bracket_sequences.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3234,7 +3341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/counting_labeled_graphs.md" class="md-nav__link">
+      <a href="../combinatorics/counting_labeled_graphs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3346,7 +3453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/binary_search.md" class="md-nav__link">
+      <a href="../num_methods/binary_search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3367,7 +3474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/ternary_search.md" class="md-nav__link">
+      <a href="../num_methods/ternary_search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3388,7 +3495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/roots_newton.md" class="md-nav__link">
+      <a href="../num_methods/roots_newton.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3455,7 +3562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/simpson-integration.md" class="md-nav__link">
+      <a href="../num_methods/simpson-integration.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3567,7 +3674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/basic-geometry.md" class="md-nav__link">
+      <a href="../geometry/basic-geometry.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3588,7 +3695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/segment-to-line.md" class="md-nav__link">
+      <a href="../geometry/segment-to-line.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3609,7 +3716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/lines-intersection.md" class="md-nav__link">
+      <a href="../geometry/lines-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3630,7 +3737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/check-segments-intersection.md" class="md-nav__link">
+      <a href="../geometry/check-segments-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3651,7 +3758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/segments-intersection.md" class="md-nav__link">
+      <a href="../geometry/segments-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3672,7 +3779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/circle-line-intersection.md" class="md-nav__link">
+      <a href="../geometry/circle-line-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3693,7 +3800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/circle-circle-intersection.md" class="md-nav__link">
+      <a href="../geometry/circle-circle-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3714,7 +3821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/tangents-to-two-circles.md" class="md-nav__link">
+      <a href="../geometry/tangents-to-two-circles.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3735,7 +3842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/length-of-segments-union.md" class="md-nav__link">
+      <a href="../geometry/length-of-segments-union.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3802,7 +3909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/oriented-triangle-area.md" class="md-nav__link">
+      <a href="../geometry/oriented-triangle-area.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3823,7 +3930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/area-of-simple-polygon.md" class="md-nav__link">
+      <a href="../geometry/area-of-simple-polygon.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3844,7 +3951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/point-in-convex-polygon.md" class="md-nav__link">
+      <a href="../geometry/point-in-convex-polygon.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3865,7 +3972,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/minkowski.md" class="md-nav__link">
+      <a href="../geometry/minkowski.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3886,7 +3993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/picks-theorem.md" class="md-nav__link">
+      <a href="../geometry/picks-theorem.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3907,7 +4014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/lattice-points.md" class="md-nav__link">
+      <a href="../geometry/lattice-points.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3974,7 +4081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/convex-hull.md" class="md-nav__link">
+      <a href="../geometry/convex-hull.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3995,7 +4102,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/convex_hull_trick.md" class="md-nav__link">
+      <a href="../geometry/convex_hull_trick.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4062,7 +4169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/intersecting_segments.md" class="md-nav__link">
+      <a href="../geometry/intersecting_segments.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4129,7 +4236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/planar.md" class="md-nav__link">
+      <a href="../geometry/planar.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4150,7 +4257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/point-location.md" class="md-nav__link">
+      <a href="../geometry/point-location.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4217,7 +4324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/nearest_points.md" class="md-nav__link">
+      <a href="../geometry/nearest_points.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4238,7 +4345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/delaunay.md" class="md-nav__link">
+      <a href="../geometry/delaunay.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4259,7 +4366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/vertical_decomposition.md" class="md-nav__link">
+      <a href="../geometry/vertical_decomposition.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4280,7 +4387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/halfplane-intersection.md" class="md-nav__link">
+      <a href="../geometry/halfplane-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4301,7 +4408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/manhattan-distance.md" class="md-nav__link">
+      <a href="../geometry/manhattan-distance.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4413,7 +4520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/breadth-first-search.md" class="md-nav__link">
+      <a href="../graph/breadth-first-search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4434,7 +4541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/depth-first-search.md" class="md-nav__link">
+      <a href="../graph/depth-first-search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4501,7 +4608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/search-for-connected-components.md" class="md-nav__link">
+      <a href="../graph/search-for-connected-components.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4522,7 +4629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bridge-searching.md" class="md-nav__link">
+      <a href="../graph/bridge-searching.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4543,7 +4650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bridge-searching-online.md" class="md-nav__link">
+      <a href="../graph/bridge-searching-online.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4564,7 +4671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/cutpoints.md" class="md-nav__link">
+      <a href="../graph/cutpoints.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4585,7 +4692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/strongly-connected-components.md" class="md-nav__link">
+      <a href="../graph/strongly-connected-components.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4606,7 +4713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/strong-orientation.md" class="md-nav__link">
+      <a href="../graph/strong-orientation.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4673,7 +4780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/dijkstra.md" class="md-nav__link">
+      <a href="../graph/dijkstra.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4694,7 +4801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/dijkstra_sparse.md" class="md-nav__link">
+      <a href="../graph/dijkstra_sparse.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4715,7 +4822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bellman_ford.md" class="md-nav__link">
+      <a href="../graph/bellman_ford.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4736,7 +4843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/01_bfs.md" class="md-nav__link">
+      <a href="../graph/01_bfs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4757,7 +4864,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/desopo_pape.md" class="md-nav__link">
+      <a href="../graph/desopo_pape.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4824,7 +4931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/all-pair-shortest-path-floyd-warshall.md" class="md-nav__link">
+      <a href="../graph/all-pair-shortest-path-floyd-warshall.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4845,7 +4952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/fixed_length_paths.md" class="md-nav__link">
+      <a href="../graph/fixed_length_paths.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4912,7 +5019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mst_prim.md" class="md-nav__link">
+      <a href="../graph/mst_prim.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4933,7 +5040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mst_kruskal.md" class="md-nav__link">
+      <a href="../graph/mst_kruskal.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4954,7 +5061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mst_kruskal_with_dsu.md" class="md-nav__link">
+      <a href="../graph/mst_kruskal_with_dsu.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4975,7 +5082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/second_best_mst.md" class="md-nav__link">
+      <a href="../graph/second_best_mst.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4996,7 +5103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/kirchhoff-theorem.md" class="md-nav__link">
+      <a href="../graph/kirchhoff-theorem.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5017,7 +5124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/pruefer_code.md" class="md-nav__link">
+      <a href="../graph/pruefer_code.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5084,7 +5191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/finding-cycle.md" class="md-nav__link">
+      <a href="../graph/finding-cycle.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5105,7 +5212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/finding-negative-cycle-in-graph.md" class="md-nav__link">
+      <a href="../graph/finding-negative-cycle-in-graph.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5126,7 +5233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/euler_path.md" class="md-nav__link">
+      <a href="../graph/euler_path.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5193,7 +5300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca.md" class="md-nav__link">
+      <a href="../graph/lca.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5214,7 +5321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca_binary_lifting.md" class="md-nav__link">
+      <a href="../graph/lca_binary_lifting.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5235,7 +5342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca_farachcoltonbender.md" class="md-nav__link">
+      <a href="../graph/lca_farachcoltonbender.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5256,7 +5363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/rmq_linear.md" class="md-nav__link">
+      <a href="../graph/rmq_linear.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5277,7 +5384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca_tarjan.md" class="md-nav__link">
+      <a href="../graph/lca_tarjan.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5344,7 +5451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/edmonds_karp.md" class="md-nav__link">
+      <a href="../graph/edmonds_karp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5365,7 +5472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/push-relabel.md" class="md-nav__link">
+      <a href="../graph/push-relabel.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5386,7 +5493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/push-relabel-faster.md" class="md-nav__link">
+      <a href="../graph/push-relabel-faster.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5407,7 +5514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/dinic.md" class="md-nav__link">
+      <a href="../graph/dinic.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5428,7 +5535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mpm.md" class="md-nav__link">
+      <a href="../graph/mpm.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5449,7 +5556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/flow_with_demands.md" class="md-nav__link">
+      <a href="../graph/flow_with_demands.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5470,7 +5577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/min_cost_flow.md" class="md-nav__link">
+      <a href="../graph/min_cost_flow.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5491,7 +5598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/Assignment-problem-min-flow.md" class="md-nav__link">
+      <a href="../graph/Assignment-problem-min-flow.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5558,7 +5665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bipartite-check.md" class="md-nav__link">
+      <a href="../graph/bipartite-check.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5579,7 +5686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/kuhn_maximum_bipartite_matching.md" class="md-nav__link">
+      <a href="../graph/kuhn_maximum_bipartite_matching.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5600,7 +5707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/hungarian-algorithm.md" class="md-nav__link">
+      <a href="../graph/hungarian-algorithm.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5667,7 +5774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/topological-sort.md" class="md-nav__link">
+      <a href="../graph/topological-sort.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5688,7 +5795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/edge_vertex_connectivity.md" class="md-nav__link">
+      <a href="../graph/edge_vertex_connectivity.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5709,7 +5816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/tree_painting.md" class="md-nav__link">
+      <a href="../graph/tree_painting.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5730,7 +5837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/2SAT.md" class="md-nav__link">
+      <a href="../graph/2SAT.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5751,7 +5858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/hld.md" class="md-nav__link">
+      <a href="../graph/hld.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5863,7 +5970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/rmq.md" class="md-nav__link">
+      <a href="../sequences/rmq.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5884,7 +5991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/longest_increasing_subsequence.md" class="md-nav__link">
+      <a href="../sequences/longest_increasing_subsequence.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5905,7 +6012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/maximum_average_segment.md" class="md-nav__link">
+      <a href="../others/maximum_average_segment.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5926,7 +6033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/k-th.md" class="md-nav__link">
+      <a href="../sequences/k-th.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5947,7 +6054,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/mex.md" class="md-nav__link">
+      <a href="../sequences/mex.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6014,7 +6121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/game_theory/games_on_graphs.md" class="md-nav__link">
+      <a href="../game_theory/games_on_graphs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6035,7 +6142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/game_theory/sprague-grundy-nim.md" class="md-nav__link">
+      <a href="../game_theory/sprague-grundy-nim.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6102,7 +6209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/schedules/schedule_one_machine.md" class="md-nav__link">
+      <a href="../schedules/schedule_one_machine.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6123,7 +6230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/schedules/schedule_two_machines.md" class="md-nav__link">
+      <a href="../schedules/schedule_two_machines.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6144,7 +6251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/schedules/schedule-with-completion-duration.md" class="md-nav__link">
+      <a href="../schedules/schedule-with-completion-duration.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6211,7 +6318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/tortoise_and_hare.md" class="md-nav__link">
+      <a href="../others/tortoise_and_hare.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6232,7 +6339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/josephus_problem.md" class="md-nav__link">
+      <a href="../others/josephus_problem.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6253,7 +6360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/15-puzzle.md" class="md-nav__link">
+      <a href="../others/15-puzzle.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6274,7 +6381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/stern_brocot_tree_farey_sequences.md" class="md-nav__link">
+      <a href="../others/stern_brocot_tree_farey_sequences.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6320,6 +6427,61 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correctness-proof" class="md-nav__link">
+    <span class="md-ellipsis">
+      Correctness Proof
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#runtime-and-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Runtime and Memory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -6331,8 +6493,120 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+    <a href="https://github.com/cp-algorithms/cp-algorithms/edit/main/src/algebra/prime-sieve-linear.md" title="Editer cette page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="linear-sieve">Linear Sieve<a class="headerlink" href="#linear-sieve" title="Permanent link">&para;</a></h1>
+<p>Given a number <span class="arithmatex">$n$</span>, find all prime numbers in a segment <span class="arithmatex">$[2;n]$</span>.</p>
+<p>The standard way of solving a task is to use <a href="sieve-of-eratosthenes.html">the sieve of Eratosthenes</a>. This algorithm is very simple, but it has runtime <span class="arithmatex">$O(n \log \log n)$</span>.</p>
+<p>Although there are a lot of known algorithms with sublinear runtime (i.e. <span class="arithmatex">$o(n)$</span>), the algorithm described below is interesting by its simplicity: it isn't any more complex than the classic sieve of Eratosthenes.</p>
+<p>Besides, the algorithm given here calculates <strong>factorizations of all numbers</strong> in the segment <span class="arithmatex">$[2; n]$</span> as a side effect, and that can be helpful in many practical applications.</p>
+<p>The weakness of the given algorithm is in using more memory than the classic sieve of Eratosthenes': it requires an array of <span class="arithmatex">$n$</span> numbers, while for the classic sieve of Eratosthenes it is enough to have <span class="arithmatex">$n$</span> bits of memory (which is 32 times less).</p>
+<p>Thus, it makes sense to use the described algorithm only until for numbers of order <span class="arithmatex">$10^7$</span> and not greater.</p>
+<p>The algorithm is due to Paul Pritchard. It is a variant of Algorithm 3.3 in (Pritchard, 1987: see references in the end of the article).</p>
+<h2 id="algorithm">Algorithm<a class="headerlink" href="#algorithm" title="Permanent link">&para;</a></h2>
+<p>Our goal is to calculate <strong>minimum prime factor</strong> <span class="arithmatex">$lp [i]$</span> for every number <span class="arithmatex">$i$</span> in the segment <span class="arithmatex">$[2; n]$</span>.</p>
+<p>Besides, we need to store the list of all the found prime numbers - let's call it <span class="arithmatex">$pr []$</span>.</p>
+<p>We'll initialize the values <span class="arithmatex">$lp [i]$</span> with zeros, which means that we assume all numbers are prime. During the algorithm execution this array will be filled gradually.</p>
+<p>Now we'll go through the numbers from 2 to <span class="arithmatex">$n$</span>. We have two cases for the current number <span class="arithmatex">$i$</span>:</p>
+<ul>
+<li>
+<p><span class="arithmatex">$lp[i] = 0$</span> - that means that <span class="arithmatex">$i$</span> is prime, i.e. we haven't found any smaller factors for it.<br />
+  Hence, we assign <span class="arithmatex">$lp [i] = i$</span> and add <span class="arithmatex">$i$</span> to the end of the list <span class="arithmatex">$pr[]$</span>.</p>
+</li>
+<li>
+<p><span class="arithmatex">$lp[i] \neq 0$</span> - that means that <span class="arithmatex">$i$</span> is composite, and its minimum prime factor is <span class="arithmatex">$lp [i]$</span>.</p>
+</li>
+</ul>
+<p>In both cases we update values of <span class="arithmatex">$lp []$</span> for the numbers that are divisible by <span class="arithmatex">$i$</span>. However, our goal is to learn to do so as to set a value <span class="arithmatex">$lp []$</span> at most once for every number. We can do it as follows:</p>
+<p>Let's consider numbers <span class="arithmatex">$x_j = i \cdot p_j$</span>, where <span class="arithmatex">$p_j$</span> are all prime numbers less than or equal to <span class="arithmatex">$lp [i]$</span> (this is why we need to store the list of all prime numbers).</p>
+<p>We'll set a new value <span class="arithmatex">$lp [x_j] = p_j$</span> for all numbers of this form.</p>
+<p>The proof of correctness of this algorithm and its runtime can be found after the implementation.</p>
+<h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10000000</span><span class="p">;</span>
+<span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">lp</span><span class="p">(</span><span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>
+<span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pr</span><span class="p">;</span>
+
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">N</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">lp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">lp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">        </span><span class="n">pr</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">pr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">N</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">j</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">lp</span><span class="p">[</span><span class="n">i</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">pr</span><span class="p">[</span><span class="n">j</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pr</span><span class="p">[</span><span class="n">j</span><span class="p">];</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">pr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">lp</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="correctness-proof">Correctness Proof<a class="headerlink" href="#correctness-proof" title="Permanent link">&para;</a></h2>
+<p>We need to prove that the algorithm sets all values <span class="arithmatex">$lp []$</span> correctly, and that every value will be set exactly once. Hence, the algorithm will have linear runtime, since all the remaining actions of the algorithm, obviously, work for <span class="arithmatex">$O (n)$</span>.</p>
+<p>Notice that every number <span class="arithmatex">$i$</span> has exactly one representation in form:</p>
+<div class="arithmatex">$$i = lp [i] \cdot x,$$</div>
+<p>where <span class="arithmatex">$lp [i]$</span> is the minimal prime factor of <span class="arithmatex">$i$</span>, and the number <span class="arithmatex">$x$</span> doesn't have any prime factors less than <span class="arithmatex">$lp [i]$</span>, i.e.</p>
+<div class="arithmatex">$$lp [i] \le lp [x].$$</div>
+<p>Now, let's compare this with the actions of our algorithm: in fact, for every <span class="arithmatex">$x$</span> it goes through all prime numbers it could be multiplied by, i.e. all prime numbers up to <span class="arithmatex">$lp [x]$</span> inclusive, in order to get the numbers in the form given above.</p>
+<p>Hence, the algorithm will go through every composite number exactly once, setting the correct values <span class="arithmatex">$lp []$</span> there. Q.E.D.</p>
+<h2 id="runtime-and-memory">Runtime and Memory<a class="headerlink" href="#runtime-and-memory" title="Permanent link">&para;</a></h2>
+<p>Although the running time of <span class="arithmatex">$O(n)$</span> is better than <span class="arithmatex">$O(n \log \log n)$</span> of the classic sieve of Eratosthenes, the difference between them is not so big.
+In practice the linear sieve runs about as fast as a typical implementation of the sieve of Eratosthenes.</p>
+<p>In comparison to optimized versions of the sieve of Erathosthenes, e.g. the segmented sieve, it is much slower.</p>
+<p>Considering the memory requirements of this algorithm - an array <span class="arithmatex">$lp []$</span> of length <span class="arithmatex">$n$</span>, and an array of <span class="arithmatex">$pr []$</span> of length  <span class="arithmatex">$\frac n {\ln n}$</span>, this algorithm seems to be worse than the classic sieve in every way.</p>
+<p>However, its redeeming quality is that this algorithm calculates an array <span class="arithmatex">$lp []$</span>, which allows us to find factorization of any number in the segment <span class="arithmatex">$[2; n]$</span> in the time of the size order of this factorization. Moreover, using just one extra array will allow us to avoid divisions when looking for factorization.</p>
+<p>Knowing the factorizations of all numbers is very useful for some tasks, and this algorithm is one of the few which allow to find them in linear time.</p>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Paul Pritchard, <strong>Linear Prime-Number Sieves: a Family Tree</strong>, Science of Computer Programming, vol. 9 (1987), pp.17-35.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+  <aside class="md-source-file">
+    
+    
+    
+      
+  
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Contributeurs">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+      
+    </span>
+    <nav>
+      
+        <a href="mailto:benjabriataher@gmail.com">Taher</a>
+    </nav>
+  </span>
+
+    
+    
+  </aside>
+
+
+  
+
+
+
+
+                
               </article>
             </div>
           
@@ -6370,12 +6644,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["content.action.edit", "navigation.tabs", "navigation.instant"], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "navigation.tabs", "navigation.instant"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
-        <script src="/javascript/config.js"></script>
+        <script src="../javascript/config.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
       

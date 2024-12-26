@@ -1,43 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://cauchychips.github.io/</loc>
+         <loc>https://cp-algorithms.com/index.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/about/</loc>
+         <loc>https://cp-algorithms.com/navigation.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/docker-deploy/</loc>
+         <loc>https://cp-algorithms.com/preview.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/faq/</loc>
+         <loc>https://cp-algorithms.com/tags.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/format/</loc>
+         <loc>https://cp-algorithms.com/algebra/all-submasks.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/htc/</loc>
+         <loc>https://cp-algorithms.com/algebra/balanced-ternary.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/mirrors/</loc>
+         <loc>https://cp-algorithms.com/algebra/big-integer.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/symbol/</loc>
+         <loc>https://cp-algorithms.com/algebra/binary-exp.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/thanks/</loc>
+         <loc>https://cp-algorithms.com/algebra/bit-manipulation.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
     <url>
-         <loc>https://cauchychips.github.io/intro/what-oi-wiki-is-not/</loc>
+         <loc>https://cp-algorithms.com/algebra/chinese-remainder-theorem.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/continued-fractions.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/discrete-log.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/discrete-root.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/divisors.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/euclid-algorithm.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/extended-euclid-algorithm.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/factorial-divisors.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/factorial-modulo.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/factoring-exp.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/factorization.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/fft.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/fibonacci-numbers.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/garners-algorithm.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/gray-code.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/linear-diophantine-equation.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/linear_congruence_equation.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/module-inverse.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/montgomery_multiplication.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/phi-function.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/polynomial.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/primality_tests.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/prime-sieve-linear.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/primitive-root.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/about.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/docker-deploy.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/faq.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/format.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/htc.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/mirrors.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/symbol.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/thanks.html</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://cp-algorithms.com/intro/what-oi-wiki-is-not.html</loc>
          <lastmod>2024-12-26</lastmod>
     </url>
 </urlset>

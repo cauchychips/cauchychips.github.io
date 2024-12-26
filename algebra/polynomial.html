@@ -10,25 +10,31 @@
       
       
       
+        <link rel="canonical" href="https://cp-algorithms.com/algebra/polynomial.html">
       
       
+        <link rel="prev" href="fft.html">
       
-        <link rel="alternate" type="application/rss+xml" title="Flux RSS" href="/feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="Flux RSS du contenu mis à jour" href="/feed_rss_updated.xml">
       
-      <link rel="icon" href="/favicon.ico">
+        <link rel="next" href="continued-fractions.html">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="Flux RSS" href="../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="Flux RSS du contenu mis à jour" href="../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>Algorithms for Competitive Programming</title>
+        <title>Operations on polynomials and series - Algorithms for Competitive Programming</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -47,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -84,6 +90,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#operations-on-polynomials-and-series" class="md-skip">
+          Aller au contenu
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -94,7 +105,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="/." title="Algorithms for Competitive Programming" class="md-header__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
+    <a href=".." title="Algorithms for Competitive Programming" class="md-header__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
@@ -114,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Operations on polynomials and series
             
           </span>
         </div>
@@ -186,7 +197,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/index.html" class="md-tabs__link">
+        <a href="../index.html" class="md-tabs__link">
           
   
   Home
@@ -200,17 +211,21 @@
         
   
   
+    
+  
   
     
     
       
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/algebra/binary-exp.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="binary-exp.html" class="md-tabs__link">
           
   
   Algebra
@@ -237,7 +252,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/data_structures/stack_queue_modification.md" class="md-tabs__link">
+        <a href="../data_structures/stack_queue_modification.md" class="md-tabs__link">
           
   
   Data Structures
@@ -258,7 +273,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/dynamic_programming/intro-to-dp.md" class="md-tabs__link">
+        <a href="../dynamic_programming/intro-to-dp.md" class="md-tabs__link">
           
   
   Dynamic Programming
@@ -282,7 +297,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/string/string-hashing.md" class="md-tabs__link">
+        <a href="../string/string-hashing.md" class="md-tabs__link">
           
   
   String Processing
@@ -309,7 +324,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/linear_algebra/linear-system-gauss.md" class="md-tabs__link">
+        <a href="../linear_algebra/linear-system-gauss.md" class="md-tabs__link">
           
   
   Linear Algebra
@@ -336,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/algebra/factorial-divisors.html" class="md-tabs__link">
+        <a href="factorial-divisors.html" class="md-tabs__link">
           
   
   Combinatorics
@@ -363,7 +378,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/num_methods/binary_search.md" class="md-tabs__link">
+        <a href="../num_methods/binary_search.md" class="md-tabs__link">
           
   
   Numerical Methods
@@ -390,7 +405,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/geometry/basic-geometry.md" class="md-tabs__link">
+        <a href="../geometry/basic-geometry.md" class="md-tabs__link">
           
   
   Geometry
@@ -417,7 +432,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/graph/breadth-first-search.md" class="md-tabs__link">
+        <a href="../graph/breadth-first-search.md" class="md-tabs__link">
           
   
   Graphs
@@ -444,7 +459,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sequences/rmq.md" class="md-tabs__link">
+        <a href="../sequences/rmq.md" class="md-tabs__link">
           
   
   Miscellaneous
@@ -480,7 +495,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Algorithms for Competitive Programming" class="md-nav__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
+    <a href=".." title="Algorithms for Competitive Programming" class="md-nav__button md-logo" aria-label="Algorithms for Competitive Programming" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
@@ -548,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -569,7 +584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/navigation.html" class="md-nav__link">
+      <a href="../navigation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -590,7 +605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tags.html" class="md-nav__link">
+      <a href="../tags.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -611,7 +626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contrib.md" class="md-nav__link">
+      <a href="../contrib.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -632,7 +647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/code_of_conduct.md" class="md-nav__link">
+      <a href="../code_of_conduct.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -653,7 +668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/preview.html" class="md-nav__link">
+      <a href="../preview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -678,23 +693,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -705,7 +725,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Algebra
@@ -757,7 +777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/binary-exp.html" class="md-nav__link">
+      <a href="binary-exp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -778,7 +798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/euclid-algorithm.html" class="md-nav__link">
+      <a href="euclid-algorithm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -799,7 +819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/extended-euclid-algorithm.html" class="md-nav__link">
+      <a href="extended-euclid-algorithm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -820,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/linear-diophantine-equation.html" class="md-nav__link">
+      <a href="linear-diophantine-equation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -841,7 +861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/fibonacci-numbers.html" class="md-nav__link">
+      <a href="fibonacci-numbers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -908,7 +928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/sieve-of-eratosthenes.html" class="md-nav__link">
+      <a href="sieve-of-eratosthenes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -929,7 +949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/prime-sieve-linear.html" class="md-nav__link">
+      <a href="prime-sieve-linear.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -950,7 +970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/primality_tests.html" class="md-nav__link">
+      <a href="primality_tests.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -971,7 +991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factorization.html" class="md-nav__link">
+      <a href="factorization.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1038,7 +1058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/phi-function.html" class="md-nav__link">
+      <a href="phi-function.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1059,7 +1079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/divisors.html" class="md-nav__link">
+      <a href="divisors.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1126,7 +1146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/module-inverse.html" class="md-nav__link">
+      <a href="module-inverse.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1147,7 +1167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/linear_congruence_equation.html" class="md-nav__link">
+      <a href="linear_congruence_equation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1168,7 +1188,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/chinese-remainder-theorem.html" class="md-nav__link">
+      <a href="chinese-remainder-theorem.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1189,7 +1209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/garners-algorithm.html" class="md-nav__link">
+      <a href="garners-algorithm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1210,7 +1230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factorial-modulo.html" class="md-nav__link">
+      <a href="factorial-modulo.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1231,7 +1251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/discrete-log.html" class="md-nav__link">
+      <a href="discrete-log.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1252,7 +1272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/primitive-root.html" class="md-nav__link">
+      <a href="primitive-root.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1273,7 +1293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/discrete-root.html" class="md-nav__link">
+      <a href="discrete-root.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1294,7 +1314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/montgomery_multiplication.html" class="md-nav__link">
+      <a href="montgomery_multiplication.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1361,7 +1381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/balanced-ternary.html" class="md-nav__link">
+      <a href="balanced-ternary.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1382,7 +1402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/gray-code.html" class="md-nav__link">
+      <a href="gray-code.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1408,6 +1428,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1417,11 +1439,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" checked>
         
           
           <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
@@ -1435,7 +1457,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
             Miscellaneous
@@ -1449,7 +1471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/bit-manipulation.html" class="md-nav__link">
+      <a href="bit-manipulation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1470,7 +1492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/all-submasks.html" class="md-nav__link">
+      <a href="all-submasks.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1491,7 +1513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/big-integer.html" class="md-nav__link">
+      <a href="big-integer.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1512,7 +1534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/fft.html" class="md-nav__link">
+      <a href="fft.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1530,10 +1552,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/algebra/polynomial.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Operations on polynomials and series
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="polynomial.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1542,6 +1584,311 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-notion-and-facts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Notion and facts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Notion and facts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#polynomial-multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polynomial multiplication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formal-power-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formal power series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#long-polynomial-division" class="md-nav__link">
+    <span class="md-ellipsis">
+      Long polynomial division
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic implementation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arithmetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arithmetic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arithmetic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiplication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverse-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inverse series
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inverse series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#divide-and-conquer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divide and conquer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sievekingkung-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sieveking–Kung algorithm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#euclidean-division" class="md-nav__link">
+    <span class="md-ellipsis">
+      Euclidean division
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculating-functions-of-polynomial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculating functions of polynomial
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calculating functions of polynomial">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#newtons-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Newton's method
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Newton's method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hensels-lemma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hensel's lemma
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logarithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logarithm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverse-series_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inverse series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exponent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exponent
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-th-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      k-th power
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation-and-interpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluation and Interpolation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation and Interpolation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chirp-z-transform" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chirp-z Transform
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-point-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-point Evaluation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpolation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gcd-and-resultants" class="md-nav__link">
+    <span class="md-ellipsis">
+      GCD and Resultants
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GCD and Resultants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#euclidean-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Euclidean algorithm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#half-gcd-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Half-GCD algorithm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problems
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1554,7 +1901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/continued-fractions.html" class="md-nav__link">
+      <a href="continued-fractions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1575,7 +1922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factoring-exp.html" class="md-nav__link">
+      <a href="factoring-exp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1687,7 +2034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/stack_queue_modification.md" class="md-nav__link">
+      <a href="../data_structures/stack_queue_modification.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1708,7 +2055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/sparse-table.md" class="md-nav__link">
+      <a href="../data_structures/sparse-table.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1775,7 +2122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/disjoint_set_union.md" class="md-nav__link">
+      <a href="../data_structures/disjoint_set_union.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1796,7 +2143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/fenwick.md" class="md-nav__link">
+      <a href="../data_structures/fenwick.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1817,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/sqrt_decomposition.md" class="md-nav__link">
+      <a href="../data_structures/sqrt_decomposition.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1838,7 +2185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/segment_tree.md" class="md-nav__link">
+      <a href="../data_structures/segment_tree.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1859,7 +2206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/treap.md" class="md-nav__link">
+      <a href="../data_structures/treap.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1880,7 +2227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/sqrt-tree.md" class="md-nav__link">
+      <a href="../data_structures/sqrt-tree.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1901,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/randomized_heap.md" class="md-nav__link">
+      <a href="../data_structures/randomized_heap.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1968,7 +2315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/data_structures/deleting_in_log_n.md" class="md-nav__link">
+      <a href="../data_structures/deleting_in_log_n.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2042,7 +2389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/intro-to-dp.md" class="md-nav__link">
+      <a href="../dynamic_programming/intro-to-dp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2063,7 +2410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/knapsack.md" class="md-nav__link">
+      <a href="../dynamic_programming/knapsack.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2122,7 +2469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/divide-and-conquer-dp.md" class="md-nav__link">
+      <a href="../dynamic_programming/divide-and-conquer-dp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2143,7 +2490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/knuth-optimization.md" class="md-nav__link">
+      <a href="../dynamic_programming/knuth-optimization.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2210,7 +2557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/profile-dynamics.md" class="md-nav__link">
+      <a href="../dynamic_programming/profile-dynamics.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2231,7 +2578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dynamic_programming/zero_matrix.md" class="md-nav__link">
+      <a href="../dynamic_programming/zero_matrix.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2343,7 +2690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/string-hashing.md" class="md-nav__link">
+      <a href="../string/string-hashing.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2364,7 +2711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/rabin-karp.md" class="md-nav__link">
+      <a href="../string/rabin-karp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2385,7 +2732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/prefix-function.md" class="md-nav__link">
+      <a href="../string/prefix-function.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2406,7 +2753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/z-function.md" class="md-nav__link">
+      <a href="../string/z-function.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2427,7 +2774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/suffix-array.md" class="md-nav__link">
+      <a href="../string/suffix-array.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2448,7 +2795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/aho_corasick.md" class="md-nav__link">
+      <a href="../string/aho_corasick.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2515,7 +2862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/suffix-tree-ukkonen.md" class="md-nav__link">
+      <a href="../string/suffix-tree-ukkonen.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2536,7 +2883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/suffix-automaton.md" class="md-nav__link">
+      <a href="../string/suffix-automaton.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2557,7 +2904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/lyndon_factorization.md" class="md-nav__link">
+      <a href="../string/lyndon_factorization.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2624,7 +2971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/expression_parsing.md" class="md-nav__link">
+      <a href="../string/expression_parsing.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2645,7 +2992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/manacher.md" class="md-nav__link">
+      <a href="../string/manacher.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2666,7 +3013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/string/main_lorentz.md" class="md-nav__link">
+      <a href="../string/main_lorentz.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2778,7 +3125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/linear-system-gauss.md" class="md-nav__link">
+      <a href="../linear_algebra/linear-system-gauss.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2799,7 +3146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/determinant-gauss.md" class="md-nav__link">
+      <a href="../linear_algebra/determinant-gauss.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2820,7 +3167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/determinant-kraut.md" class="md-nav__link">
+      <a href="../linear_algebra/determinant-kraut.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2841,7 +3188,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linear_algebra/rank-matrix.md" class="md-nav__link">
+      <a href="../linear_algebra/rank-matrix.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2953,7 +3300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/algebra/factorial-divisors.html" class="md-nav__link">
+      <a href="factorial-divisors.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2974,7 +3321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/binomial-coefficients.md" class="md-nav__link">
+      <a href="../combinatorics/binomial-coefficients.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2995,7 +3342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/catalan-numbers.md" class="md-nav__link">
+      <a href="../combinatorics/catalan-numbers.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3062,7 +3409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/inclusion-exclusion.md" class="md-nav__link">
+      <a href="../combinatorics/inclusion-exclusion.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3083,7 +3430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/burnside.md" class="md-nav__link">
+      <a href="../combinatorics/burnside.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3104,7 +3451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/stars_and_bars.md" class="md-nav__link">
+      <a href="../combinatorics/stars_and_bars.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3125,7 +3472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/generating_combinations.md" class="md-nav__link">
+      <a href="../combinatorics/generating_combinations.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3192,7 +3539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/bishops-on-chessboard.md" class="md-nav__link">
+      <a href="../combinatorics/bishops-on-chessboard.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3213,7 +3560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/bracket_sequences.md" class="md-nav__link">
+      <a href="../combinatorics/bracket_sequences.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3234,7 +3581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/combinatorics/counting_labeled_graphs.md" class="md-nav__link">
+      <a href="../combinatorics/counting_labeled_graphs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3346,7 +3693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/binary_search.md" class="md-nav__link">
+      <a href="../num_methods/binary_search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3367,7 +3714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/ternary_search.md" class="md-nav__link">
+      <a href="../num_methods/ternary_search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3388,7 +3735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/roots_newton.md" class="md-nav__link">
+      <a href="../num_methods/roots_newton.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3455,7 +3802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/num_methods/simpson-integration.md" class="md-nav__link">
+      <a href="../num_methods/simpson-integration.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3567,7 +3914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/basic-geometry.md" class="md-nav__link">
+      <a href="../geometry/basic-geometry.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3588,7 +3935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/segment-to-line.md" class="md-nav__link">
+      <a href="../geometry/segment-to-line.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3609,7 +3956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/lines-intersection.md" class="md-nav__link">
+      <a href="../geometry/lines-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3630,7 +3977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/check-segments-intersection.md" class="md-nav__link">
+      <a href="../geometry/check-segments-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3651,7 +3998,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/segments-intersection.md" class="md-nav__link">
+      <a href="../geometry/segments-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3672,7 +4019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/circle-line-intersection.md" class="md-nav__link">
+      <a href="../geometry/circle-line-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3693,7 +4040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/circle-circle-intersection.md" class="md-nav__link">
+      <a href="../geometry/circle-circle-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3714,7 +4061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/tangents-to-two-circles.md" class="md-nav__link">
+      <a href="../geometry/tangents-to-two-circles.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3735,7 +4082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/length-of-segments-union.md" class="md-nav__link">
+      <a href="../geometry/length-of-segments-union.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3802,7 +4149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/oriented-triangle-area.md" class="md-nav__link">
+      <a href="../geometry/oriented-triangle-area.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3823,7 +4170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/area-of-simple-polygon.md" class="md-nav__link">
+      <a href="../geometry/area-of-simple-polygon.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3844,7 +4191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/point-in-convex-polygon.md" class="md-nav__link">
+      <a href="../geometry/point-in-convex-polygon.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3865,7 +4212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/minkowski.md" class="md-nav__link">
+      <a href="../geometry/minkowski.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3886,7 +4233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/picks-theorem.md" class="md-nav__link">
+      <a href="../geometry/picks-theorem.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3907,7 +4254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/lattice-points.md" class="md-nav__link">
+      <a href="../geometry/lattice-points.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3974,7 +4321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/convex-hull.md" class="md-nav__link">
+      <a href="../geometry/convex-hull.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3995,7 +4342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/convex_hull_trick.md" class="md-nav__link">
+      <a href="../geometry/convex_hull_trick.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4062,7 +4409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/intersecting_segments.md" class="md-nav__link">
+      <a href="../geometry/intersecting_segments.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4129,7 +4476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/planar.md" class="md-nav__link">
+      <a href="../geometry/planar.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4150,7 +4497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/point-location.md" class="md-nav__link">
+      <a href="../geometry/point-location.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4217,7 +4564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/nearest_points.md" class="md-nav__link">
+      <a href="../geometry/nearest_points.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4238,7 +4585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/delaunay.md" class="md-nav__link">
+      <a href="../geometry/delaunay.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4259,7 +4606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/vertical_decomposition.md" class="md-nav__link">
+      <a href="../geometry/vertical_decomposition.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4280,7 +4627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/halfplane-intersection.md" class="md-nav__link">
+      <a href="../geometry/halfplane-intersection.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4301,7 +4648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/geometry/manhattan-distance.md" class="md-nav__link">
+      <a href="../geometry/manhattan-distance.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4413,7 +4760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/breadth-first-search.md" class="md-nav__link">
+      <a href="../graph/breadth-first-search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4434,7 +4781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/depth-first-search.md" class="md-nav__link">
+      <a href="../graph/depth-first-search.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4501,7 +4848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/search-for-connected-components.md" class="md-nav__link">
+      <a href="../graph/search-for-connected-components.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4522,7 +4869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bridge-searching.md" class="md-nav__link">
+      <a href="../graph/bridge-searching.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4543,7 +4890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bridge-searching-online.md" class="md-nav__link">
+      <a href="../graph/bridge-searching-online.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4564,7 +4911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/cutpoints.md" class="md-nav__link">
+      <a href="../graph/cutpoints.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4585,7 +4932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/strongly-connected-components.md" class="md-nav__link">
+      <a href="../graph/strongly-connected-components.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4606,7 +4953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/strong-orientation.md" class="md-nav__link">
+      <a href="../graph/strong-orientation.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4673,7 +5020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/dijkstra.md" class="md-nav__link">
+      <a href="../graph/dijkstra.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4694,7 +5041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/dijkstra_sparse.md" class="md-nav__link">
+      <a href="../graph/dijkstra_sparse.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4715,7 +5062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bellman_ford.md" class="md-nav__link">
+      <a href="../graph/bellman_ford.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4736,7 +5083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/01_bfs.md" class="md-nav__link">
+      <a href="../graph/01_bfs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4757,7 +5104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/desopo_pape.md" class="md-nav__link">
+      <a href="../graph/desopo_pape.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4824,7 +5171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/all-pair-shortest-path-floyd-warshall.md" class="md-nav__link">
+      <a href="../graph/all-pair-shortest-path-floyd-warshall.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4845,7 +5192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/fixed_length_paths.md" class="md-nav__link">
+      <a href="../graph/fixed_length_paths.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4912,7 +5259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mst_prim.md" class="md-nav__link">
+      <a href="../graph/mst_prim.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4933,7 +5280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mst_kruskal.md" class="md-nav__link">
+      <a href="../graph/mst_kruskal.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4954,7 +5301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mst_kruskal_with_dsu.md" class="md-nav__link">
+      <a href="../graph/mst_kruskal_with_dsu.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4975,7 +5322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/second_best_mst.md" class="md-nav__link">
+      <a href="../graph/second_best_mst.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4996,7 +5343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/kirchhoff-theorem.md" class="md-nav__link">
+      <a href="../graph/kirchhoff-theorem.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5017,7 +5364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/pruefer_code.md" class="md-nav__link">
+      <a href="../graph/pruefer_code.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5084,7 +5431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/finding-cycle.md" class="md-nav__link">
+      <a href="../graph/finding-cycle.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5105,7 +5452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/finding-negative-cycle-in-graph.md" class="md-nav__link">
+      <a href="../graph/finding-negative-cycle-in-graph.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5126,7 +5473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/euler_path.md" class="md-nav__link">
+      <a href="../graph/euler_path.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5193,7 +5540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca.md" class="md-nav__link">
+      <a href="../graph/lca.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5214,7 +5561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca_binary_lifting.md" class="md-nav__link">
+      <a href="../graph/lca_binary_lifting.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5235,7 +5582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca_farachcoltonbender.md" class="md-nav__link">
+      <a href="../graph/lca_farachcoltonbender.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5256,7 +5603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/rmq_linear.md" class="md-nav__link">
+      <a href="../graph/rmq_linear.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5277,7 +5624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/lca_tarjan.md" class="md-nav__link">
+      <a href="../graph/lca_tarjan.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5344,7 +5691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/edmonds_karp.md" class="md-nav__link">
+      <a href="../graph/edmonds_karp.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5365,7 +5712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/push-relabel.md" class="md-nav__link">
+      <a href="../graph/push-relabel.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5386,7 +5733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/push-relabel-faster.md" class="md-nav__link">
+      <a href="../graph/push-relabel-faster.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5407,7 +5754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/dinic.md" class="md-nav__link">
+      <a href="../graph/dinic.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5428,7 +5775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/mpm.md" class="md-nav__link">
+      <a href="../graph/mpm.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5449,7 +5796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/flow_with_demands.md" class="md-nav__link">
+      <a href="../graph/flow_with_demands.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5470,7 +5817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/min_cost_flow.md" class="md-nav__link">
+      <a href="../graph/min_cost_flow.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5491,7 +5838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/Assignment-problem-min-flow.md" class="md-nav__link">
+      <a href="../graph/Assignment-problem-min-flow.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5558,7 +5905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/bipartite-check.md" class="md-nav__link">
+      <a href="../graph/bipartite-check.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5579,7 +5926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/kuhn_maximum_bipartite_matching.md" class="md-nav__link">
+      <a href="../graph/kuhn_maximum_bipartite_matching.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5600,7 +5947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/hungarian-algorithm.md" class="md-nav__link">
+      <a href="../graph/hungarian-algorithm.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5667,7 +6014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/topological-sort.md" class="md-nav__link">
+      <a href="../graph/topological-sort.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5688,7 +6035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/edge_vertex_connectivity.md" class="md-nav__link">
+      <a href="../graph/edge_vertex_connectivity.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5709,7 +6056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/tree_painting.md" class="md-nav__link">
+      <a href="../graph/tree_painting.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5730,7 +6077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/2SAT.md" class="md-nav__link">
+      <a href="../graph/2SAT.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5751,7 +6098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/graph/hld.md" class="md-nav__link">
+      <a href="../graph/hld.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5863,7 +6210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/rmq.md" class="md-nav__link">
+      <a href="../sequences/rmq.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5884,7 +6231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/longest_increasing_subsequence.md" class="md-nav__link">
+      <a href="../sequences/longest_increasing_subsequence.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5905,7 +6252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/maximum_average_segment.md" class="md-nav__link">
+      <a href="../others/maximum_average_segment.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5926,7 +6273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/k-th.md" class="md-nav__link">
+      <a href="../sequences/k-th.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5947,7 +6294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sequences/mex.md" class="md-nav__link">
+      <a href="../sequences/mex.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6014,7 +6361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/game_theory/games_on_graphs.md" class="md-nav__link">
+      <a href="../game_theory/games_on_graphs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6035,7 +6382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/game_theory/sprague-grundy-nim.md" class="md-nav__link">
+      <a href="../game_theory/sprague-grundy-nim.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6102,7 +6449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/schedules/schedule_one_machine.md" class="md-nav__link">
+      <a href="../schedules/schedule_one_machine.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6123,7 +6470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/schedules/schedule_two_machines.md" class="md-nav__link">
+      <a href="../schedules/schedule_two_machines.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6144,7 +6491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/schedules/schedule-with-completion-duration.md" class="md-nav__link">
+      <a href="../schedules/schedule-with-completion-duration.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6211,7 +6558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/tortoise_and_hare.md" class="md-nav__link">
+      <a href="../others/tortoise_and_hare.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6232,7 +6579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/josephus_problem.md" class="md-nav__link">
+      <a href="../others/josephus_problem.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6253,7 +6600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/15-puzzle.md" class="md-nav__link">
+      <a href="../others/15-puzzle.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6274,7 +6621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/others/stern_brocot_tree_farey_sequences.md" class="md-nav__link">
+      <a href="../others/stern_brocot_tree_farey_sequences.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6320,6 +6667,301 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-notion-and-facts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Notion and facts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Notion and facts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#polynomial-multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polynomial multiplication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formal-power-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formal power series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#long-polynomial-division" class="md-nav__link">
+    <span class="md-ellipsis">
+      Long polynomial division
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic implementation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arithmetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arithmetic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arithmetic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiplication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverse-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inverse series
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inverse series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#divide-and-conquer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divide and conquer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sievekingkung-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sieveking–Kung algorithm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#euclidean-division" class="md-nav__link">
+    <span class="md-ellipsis">
+      Euclidean division
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculating-functions-of-polynomial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculating functions of polynomial
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calculating functions of polynomial">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#newtons-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Newton's method
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Newton's method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hensels-lemma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hensel's lemma
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logarithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logarithm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverse-series_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inverse series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exponent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exponent
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-th-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      k-th power
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation-and-interpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluation and Interpolation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation and Interpolation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chirp-z-transform" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chirp-z Transform
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-point-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-point Evaluation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpolation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gcd-and-resultants" class="md-nav__link">
+    <span class="md-ellipsis">
+      GCD and Resultants
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GCD and Resultants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#euclidean-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Euclidean algorithm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#half-gcd-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Half-GCD algorithm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problems
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -6331,8 +6973,381 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+    <a href="https://github.com/cp-algorithms/cp-algorithms/edit/main/src/algebra/polynomial.md" title="Editer cette page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="operations-on-polynomials-and-series">Operations on polynomials and series<a class="headerlink" href="#operations-on-polynomials-and-series" title="Permanent link">&para;</a></h1>
+<p>Problems in competitive programming, especially the ones involving enumeration some kind, are often solved by reducing the problem to computing something on polynomials and formal power series.</p>
+<p>This includes concepts such as polynomial multiplication, interpolation, and more complicated ones, such as polynomial logarithms and exponents. In this article, a brief overview of such operations and common approaches to them is presented.</p>
+<h2 id="basic-notion-and-facts">Basic Notion and facts<a class="headerlink" href="#basic-notion-and-facts" title="Permanent link">&para;</a></h2>
+<p>In this section, we focus more on the definitions and "intuitive" properties of various polynomial operations. The technical details of their implementation and complexities will be covered in later sections.</p>
+<h3 id="polynomial-multiplication">Polynomial multiplication<a class="headerlink" href="#polynomial-multiplication" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p><strong>Univariate polynomial</strong> is an expression of form <span class="arithmatex">$A(x) = a_0 + a_1 x + \dots + a_n x^n$</span>.</p>
+</div>
+<p>The values <span class="arithmatex">$a_0, \dots, a_n$</span> are polynomial coefficients, typically taken from some set of numbers or number-like structures. In this article, we assume that the coefficients are taken from some <a href="https://en.wikipedia.org/wiki/Field_(mathematics)">field</a>, meaning that operations of addition, subtraction, multiplication and division are well-defined for them (except for division by <span class="arithmatex">$0$</span>) and they generally behave in a similar way to real numbers.</p>
+<p>Typical example of such field is the field of remainders modulo prime number <span class="arithmatex">$p$</span>.</p>
+<p>For simplicity we will drop the term <em>univariate</em>, as this is the only kind of polynomials we consider in this article. We will also write <span class="arithmatex">$A$</span> instead of <span class="arithmatex">$A(x)$</span> wherever possible, which will be understandable from the context. It is assumed that either <span class="arithmatex">$a_n \neq 0$</span> or <span class="arithmatex">$A(x)=0$</span>.</p>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p>The <strong>product</strong> of two polynomials is defined by expanding it as an arithmetic expression:</p>
+<div class="arithmatex">$$
+A(x) B(x) = \left(\sum\limits_{i=0}^n a_i x^i \right)\left(\sum\limits_{j=0}^m b_j x^j\right) = \sum\limits_{i,j} a_i b_j x^{i+j} = \sum\limits_{k=0}^{n+m} c_k x^k = C(x).
+$$</div>
+<p>The sequence <span class="arithmatex">$c_0, c_1, \dots, c_{n+m}$</span> of the coefficients of <span class="arithmatex">$C(x)$</span> is called the <strong>convolution</strong> of <span class="arithmatex">$a_0, \dots, a_n$</span> and <span class="arithmatex">$b_0, \dots, b_m$</span>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p>The <strong>degree</strong> of a polynomial <span class="arithmatex">$A$</span> with <span class="arithmatex">$a_n \neq 0$</span> is defined as <span class="arithmatex">$\deg A = n$</span>.</p>
+<p>For consistency, degree of <span class="arithmatex">$A(x) = 0$</span> is defined as <span class="arithmatex">$\deg A = -\infty$</span>.</p>
+</div>
+<p>In this notion, <span class="arithmatex">$\deg AB = \deg A + \deg B$</span> for any polynomials <span class="arithmatex">$A$</span> and <span class="arithmatex">$B$</span>.</p>
+<p>Convolutions are the basis of solving many enumerative problems.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>You have <span class="arithmatex">$n$</span> objects of the first kind and <span class="arithmatex">$m$</span> objects of the second kind.</p>
+<p>Objects of first kind are valued <span class="arithmatex">$a_1, \dots, a_n$</span>, and objects of the second kind are valued <span class="arithmatex">$b_1, \dots, b_m$</span>.</p>
+<p>You pick a single object of the first kind and a single object of the second kind. How many ways are there to get the total value <span class="arithmatex">$k$</span>?</p>
+</div>
+<details class="hint">
+<summary>Solution</summary>
+<p>Consider the product <span class="arithmatex">$(x^{a_1} + \dots + x^{a_n})(x^{b_1} + \dots + x^{b_m})$</span>. If you expand it, each monomial will correspond to the pair <span class="arithmatex">$(a_i, b_j)$</span> and contribute to the coefficient near <span class="arithmatex">$x^{a_i+b_j}$</span>. In other words, the answer is the coefficient near <span class="arithmatex">$x^k$</span> in the product.</p>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>You throw a <span class="arithmatex">$6$</span>-sided die <span class="arithmatex">$n$</span> times and sum up the results from all throws. What is the probability of getting sum of <span class="arithmatex">$k$</span>?</p>
+</div>
+<details class="hint">
+<summary>Solution</summary>
+<p>The answer is the number of outcomes having the sum <span class="arithmatex">$k$</span>, divided by the total number of outcomes, which is <span class="arithmatex">$6^n$</span>.</p>
+<p>What is the number of outcomes having the sum <span class="arithmatex">$k$</span>? For <span class="arithmatex">$n=1$</span>, it may be represented by a polynomial <span class="arithmatex">$A(x) = x^1+x^2+\dots+x^6$</span>.</p>
+<p>For <span class="arithmatex">$n=2$</span>, using the same approach as in the example above, we conclude that it is represented by the polynomial <span class="arithmatex">$(x^1+x^2+\dots+x^6)^2$</span>.</p>
+<p>That being said, the answer to the problem is the <span class="arithmatex">$k$</span>-th coefficient of <span class="arithmatex">$(x^1+x^2+\dots+x^6)^n$</span>, divided by <span class="arithmatex">$6^n$</span>.</p>
+</details>
+<p>The coefficient near <span class="arithmatex">$x^k$</span> in the polynomial <span class="arithmatex">$A(x)$</span> is denoted shortly as <span class="arithmatex">$[x^k]A$</span>.</p>
+<h3 id="formal-power-series">Formal power series<a class="headerlink" href="#formal-power-series" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p>A <strong>formal power series</strong> is an infinite sum <span class="arithmatex">$A(x) = a_0 + a_1 x + a_2 x^2 + \dots$</span>, considered regardless of its convergence properties.</p>
+</div>
+<p>In other words, when we consider e.g. a sum <span class="arithmatex">$1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\dots=2$</span>, we imply that it <em>converges</em> to <span class="arithmatex">$2$</span> when the number of summands approach infinity. However, formal series are only considered in terms of sequences that make them.</p>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p>The <strong>product</strong> of formal power series <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span>, is also defined by expanding it as an arithmetic expression:</p>
+<div class="arithmatex">$$
+A(x) B(x) = \left(\sum\limits_{i=0}^\infty a_i x^i \right)\left(\sum\limits_{j=0}^\infty b_j x^j\right) = \sum\limits_{i,j} a_i b_j x^{i+j} = \sum\limits_{k=0}^{\infty} c_k x^k = C(x),
+$$</div>
+<p>where the coefficients <span class="arithmatex">$c_0, c_1, \dots$</span> are define as finite sums</p>
+<div class="arithmatex">$$
+c_k = \sum\limits_{i=0}^k a_i b_{k-i}.
+$$</div>
+<p>The sequence <span class="arithmatex">$c_0, c_1, \dots$</span> is also called a <strong>convolution</strong> of <span class="arithmatex">$a_0, a_1, \dots$</span> and <span class="arithmatex">$b_0, b_1, \dots$</span>, generalizing the concept to infinite sequences.</p>
+</div>
+<p>Thus, polynomials may be considered formal power series, but with finite number of coefficients.</p>
+<p>Formal power series play a crucial role in enumerative combinatorics, where they're studied as <a href="https://en.wikipedia.org/wiki/Generating_function">generating functions</a> for various sequences. Detailed explanation of generating functions and the intuition behind them will, unfortunately, be out of scope for this article, therefore the curious reader is referenced e.g. <a href="https://codeforces.com/blog/entry/103979">here</a> for details about their combinatorial meaning.</p>
+<p>However, we will very briefly mention that if <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span> are generating functions for sequences that enumerate some objects by number of "atoms" in them (e.g. trees by the number of vertices), then the product <span class="arithmatex">$A(x) B(x)$</span> enumerates objects that can be described as pairs of objects of kinds <span class="arithmatex">$A$</span> and <span class="arithmatex">$B$</span>, enumerates by the total number of "atoms" in the pair.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Let <span class="arithmatex">$A(x) = \sum\limits_{i=0}^\infty 2^i x^i$</span> enumerate packs of stones, each stone colored in one of <span class="arithmatex">$2$</span> colors (so, there are <span class="arithmatex">$2^i$</span> such packs of size <span class="arithmatex">$i$</span>) and <span class="arithmatex">$B(x) = \sum\limits_{j=0}^{\infty} 3^j x^j$</span> enumerate packs of stones, each stone colored in one of <span class="arithmatex">$3$</span> colors. Then <span class="arithmatex">$C(x) = A(x) B(x) = \sum\limits_{k=0}^\infty c_k x^k$</span> would enumerate objects that may be described as "two packs of stones, first pack only of stones of type <span class="arithmatex">$A$</span>, second pack only of stones of type <span class="arithmatex">$B$</span>, with total number of stones being <span class="arithmatex">$k$</span>" for <span class="arithmatex">$c_k$</span>.</p>
+</div>
+<p>In a similar way, there is an intuitive meaning to some other functions over formal power series.</p>
+<h3 id="long-polynomial-division">Long polynomial division<a class="headerlink" href="#long-polynomial-division" title="Permanent link">&para;</a></h3>
+<p>Similar to integers, it is possible to define long division on polynomials.</p>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p>For any polynomials <span class="arithmatex">$A$</span> and <span class="arithmatex">$B \neq 0$</span>, one may represent <span class="arithmatex">$A$</span> as</p>
+<div class="arithmatex">$$
+A = D \cdot B + R,~ \deg R &lt; \deg B,
+$$</div>
+<p>where <span class="arithmatex">$R$</span> is called the <strong>remainder</strong> of <span class="arithmatex">$A$</span> modulo <span class="arithmatex">$B$</span> and <span class="arithmatex">$D$</span> is called the <strong>quotient</strong>.</p>
+</div>
+<p>Denoting <span class="arithmatex">$\deg A = n$</span> and <span class="arithmatex">$\deg B = m$</span>, naive way to do it is to use long division, during which you multiply <span class="arithmatex">$B$</span> by the monomial <span class="arithmatex">$\frac{a_n}{b_m} x^{n - m}$</span> and subtract it from <span class="arithmatex">$A$</span>, until the degree of <span class="arithmatex">$A$</span> is smaller than that of <span class="arithmatex">$B$</span>. What remains of <span class="arithmatex">$A$</span> in the end will be the remainder (hence the name), and the polynomials with which you multiplied <span class="arithmatex">$B$</span> in the process, summed together, form the quotient.</p>
+<div class="admonition info">
+<p class="admonition-title">Definition</p>
+<p>If <span class="arithmatex">$A$</span> and <span class="arithmatex">$B$</span> have the same remainder modulo <span class="arithmatex">$C$</span>, they're said to be <strong>equivalent</strong> modulo <span class="arithmatex">$C$</span>, which is denoted as</p>
+<div class="arithmatex">$$
+A \equiv B \pmod{C}.
+$$</div>
+</div>
+<p>Polynomial long division is useful because of its many important properties:</p>
+<ul>
+<li>
+<p><span class="arithmatex">$A$</span> is a multiple of <span class="arithmatex">$B$</span> if and only if <span class="arithmatex">$A \equiv 0 \pmod B$</span>.</p>
+</li>
+<li>
+<p>It implies that <span class="arithmatex">$A \equiv B \pmod C$</span> if and only if <span class="arithmatex">$A-B$</span> is a multiple of <span class="arithmatex">$C$</span>.</p>
+</li>
+<li>
+<p>In particular, <span class="arithmatex">$A \equiv B \pmod{C \cdot D}$</span> implies <span class="arithmatex">$A \equiv B \pmod{C}$</span>.</p>
+</li>
+<li>
+<p>For any linear polynomial <span class="arithmatex">$x-r$</span> it holds that <span class="arithmatex">$A(x) \equiv A(r) \pmod{x-r}$</span>.</p>
+</li>
+<li>
+<p>It implies that <span class="arithmatex">$A$</span> is a multiple of <span class="arithmatex">$x-r$</span> if and only if <span class="arithmatex">$A(r)=0$</span>.</p>
+</li>
+<li>
+<p>For modulo being <span class="arithmatex">$x^k$</span>, it holds that <span class="arithmatex">$A \equiv a_0 + a_1 x + \dots + a_{k-1} x^{k-1} \pmod{x^k}$</span>.</p>
+</li>
+</ul>
+<p>Note that long division can't be properly defined for formal power series. Instead, for any <span class="arithmatex">$A(x)$</span> such that <span class="arithmatex">$a_0 \neq 0$</span>, it is possible to define an inverse formal power series <span class="arithmatex">$A^{-1}(x)$</span>, such that <span class="arithmatex">$A(x) A^{-1}(x) = 1$</span>. This fact, in turn, can be used to compute the result of long division for polynomials.</p>
+<h2 id="basic-implementation">Basic implementation<a class="headerlink" href="#basic-implementation" title="Permanent link">&para;</a></h2>
+<p><a href="https://cp-algorithms.github.io/cp-algorithms-aux/cp-algo/math/poly.hpp">Here</a> you can find the basic implementation of polynomial algebra.</p>
+<p>It supports all trivial operations and some other useful methods. The main class is <code>poly&lt;T&gt;</code> for polynomials with coefficients of type <code>T</code>.</p>
+<p>All arithmetic operation <code>+</code>, <code>-</code>, <code>*</code>, <code>%</code> and <code>/</code> are supported, <code>%</code> and <code>/</code> standing for remainder and quotient in Euclidean division.</p>
+<p>There is also the class <code>modular&lt;m&gt;</code> for performing arithmetic operations on remainders modulo a prime number <code>m</code>.</p>
+<p>Other useful functions:</p>
+<ul>
+<li><code>deriv()</code>: computes the derivative <span class="arithmatex">$P'(x)$</span> of <span class="arithmatex">$P(x)$</span>.</li>
+<li><code>integr()</code>: computes the indefinite integral <span class="arithmatex">$Q(x) = \int P(x)$</span> of <span class="arithmatex">$P(x)$</span> such that <span class="arithmatex">$Q(0)=0$</span>.</li>
+<li><code>inv(size_t n)</code>: calculate the first <span class="arithmatex">$n$</span> coefficients of <span class="arithmatex">$P^{-1}(x)$</span> in <span class="arithmatex">$O(n \log n)$</span>.</li>
+<li><code>log(size_t n)</code>: calculate the first <span class="arithmatex">$n$</span> coefficients of <span class="arithmatex">$\ln P(x)$</span> in <span class="arithmatex">$O(n \log n)$</span>.</li>
+<li><code>exp(size_t n)</code>: calculate the first <span class="arithmatex">$n$</span> coefficients of <span class="arithmatex">$\exp P(x)$</span> in <span class="arithmatex">$O(n \log n)$</span>.</li>
+<li><code>pow(size_t k, size_t n)</code>: calculate the first <span class="arithmatex">$n$</span> coefficients for <span class="arithmatex">$P^{k}(x)$</span> in <span class="arithmatex">$O(n \log nk)$</span>.</li>
+<li><code>deg()</code>: returns the degree of <span class="arithmatex">$P(x)$</span>.</li>
+<li><code>lead()</code>: returns the coefficient of <span class="arithmatex">$x^{\deg P(x)}$</span>.</li>
+<li><code>resultant(poly&lt;T&gt; a, poly&lt;T&gt; b)</code>: computes the resultant of <span class="arithmatex">$a$</span> and <span class="arithmatex">$b$</span> in <span class="arithmatex">$O(|a| \cdot |b|)$</span>.</li>
+<li><code>bpow(T x, size_t n)</code>: computes <span class="arithmatex">$x^n$</span>.</li>
+<li><code>bpow(T x, size_t n, T m)</code>: computes <span class="arithmatex">$x^n \pmod{m}$</span>.</li>
+<li><code>chirpz(T z, size_t n)</code>: computes <span class="arithmatex">$P(1), P(z), P(z^2), \dots, P(z^{n-1})$</span> in <span class="arithmatex">$O(n \log n)$</span>.</li>
+<li><code>vector&lt;T&gt; eval(vector&lt;T&gt; x)</code>: evaluates <span class="arithmatex">$P(x_1), \dots, P(x_n)$</span> in <span class="arithmatex">$O(n \log^2 n)$</span>.</li>
+<li><code>poly&lt;T&gt; inter(vector&lt;T&gt; x, vector&lt;T&gt; y)</code>: interpolates a polynomial by a set of pairs <span class="arithmatex">$P(x_i) = y_i$</span> in <span class="arithmatex">$O(n \log^2 n)$</span>.</li>
+<li>And some more, feel free to explore the code!</li>
+</ul>
+<h2 id="arithmetic">Arithmetic<a class="headerlink" href="#arithmetic" title="Permanent link">&para;</a></h2>
+<h3 id="multiplication">Multiplication<a class="headerlink" href="#multiplication" title="Permanent link">&para;</a></h3>
+<p>The very core operation is the multiplication of two polynomials. That is, given the polynomials <span class="arithmatex">$A$</span> and <span class="arithmatex">$B$</span>:</p>
+<div class="arithmatex">$$A = a_0 + a_1 x + \dots + a_n x^n$$</div>
+<div class="arithmatex">$$B = b_0 + b_1 x + \dots + b_m x^m$$</div>
+<p>You have to compute polynomial <span class="arithmatex">$C = A \cdot B$</span>, which is defined as</p>
+<div class="arithmatex">$$\boxed{C = \sum\limits_{i=0}^n \sum\limits_{j=0}^m a_i b_j x^{i+j}}  = c_0 + c_1 x + \dots + c_{n+m} x^{n+m}.$$</div>
+<p>It can be computed in <span class="arithmatex">$O(n \log n)$</span> via the <a href="fft.html">Fast Fourier transform</a> and almost all methods here will use it as subroutine.</p>
+<h3 id="inverse-series">Inverse series<a class="headerlink" href="#inverse-series" title="Permanent link">&para;</a></h3>
+<p>If <span class="arithmatex">$A(0) \neq 0$</span> there always exists an infinite formal power series <span class="arithmatex">$A^{-1}(x) = q_0+q_1 x + q_2 x^2 + \dots$</span> such that <span class="arithmatex">$A^{-1} A = 1$</span>. It often proves useful to compute first <span class="arithmatex">$k$</span> coefficients of <span class="arithmatex">$A^{-1}$</span> (that is, to compute it modulo <span class="arithmatex">$x^k$</span>). There are two major ways to calculate it.</p>
+<h4 id="divide-and-conquer">Divide and conquer<a class="headerlink" href="#divide-and-conquer" title="Permanent link">&para;</a></h4>
+<p>This algorithm was mentioned in <a href="http://algo.inria.fr/seminars/sem00-01/schoenhage.pdf">Schönhage's article</a> and is inspired by <a href="https://en.wikipedia.org/wiki/Graeffe's_method">Graeffe's method</a>. It is known that for <span class="arithmatex">$B(x)=A(x)A(-x)$</span> it holds that <span class="arithmatex">$B(x)=B(-x)$</span>, that is, <span class="arithmatex">$B(x)$</span> is an even polynomial. It means that it only has non-zero coefficients with even numbers and can be represented as <span class="arithmatex">$B(x)=T(x^2)$</span>. Thus, we can do the following transition:</p>
+<div class="arithmatex">$$A^{-1}(x) \equiv \frac{1}{A(x)} \equiv \frac{A(-x)}{A(x)A(-x)} \equiv \frac{A(-x)}{T(x^2)} \pmod{x^k}$$</div>
+<p>Note that <span class="arithmatex">$T(x)$</span> can be computed with a single multiplication, after which we're only interested in the first half of coefficients of its inverse series. This effectively reduces the initial problem of computing <span class="arithmatex">$A^{-1} \pmod{x^k}$</span> to computing <span class="arithmatex">$T^{-1} \pmod{x^{\lfloor k / 2 \rfloor}}$</span>.</p>
+<p>The complexity of this method can be estimated as</p>
+<div class="arithmatex">$$T(n) = T(n/2) + O(n \log n) = O(n \log n).$$</div>
+<h4 id="sievekingkung-algorithm">Sieveking–Kung algorithm<a class="headerlink" href="#sievekingkung-algorithm" title="Permanent link">&para;</a></h4>
+<p>The generic process described here is known as Hensel lifting, as it follows from Hensel's lemma. We'll cover it in more detail further below, but for now let's focus on ad hoc solution. "Lifting" part here means that we start with the approximation <span class="arithmatex">$B_0=q_0=a_0^{-1}$</span>, which is <span class="arithmatex">$A^{-1} \pmod x$</span> and then iteratively lift from <span class="arithmatex">$\bmod x^a$</span> to <span class="arithmatex">$\bmod x^{2a}$</span>.</p>
+<p>Let <span class="arithmatex">$B_k \equiv A^{-1} \pmod{x^a}$</span>. The next approximation needs to follow the equation <span class="arithmatex">$A B_{k+1} \equiv 1 \pmod{x^{2a}}$</span> and may be represented as <span class="arithmatex">$B_{k+1} = B_k + x^a C$</span>. From this follows the equation</p>
+<div class="arithmatex">$$A(B_k + x^{a}C) \equiv 1 \pmod{x^{2a}}.$$</div>
+<p>Let <span class="arithmatex">$A B_k \equiv 1 + x^a D \pmod{x^{2a}}$</span>, then the equation above implies</p>
+<div class="arithmatex">$$x^a(D+AC) \equiv 0 \pmod{x^{2a}} \implies D \equiv -AC \pmod{x^a} \implies C \equiv -B_k D \pmod{x^a}.$$</div>
+<p>From this, one can obtain the final formula, which is</p>
+<div class="arithmatex">$$x^a C \equiv -B_k x^a D  \equiv B_k(1-AB_k) \pmod{x^{2a}} \implies \boxed{B_{k+1} \equiv B_k(2-AB_k) \pmod{x^{2a}}}$$</div>
+<p>Thus starting with <span class="arithmatex">$B_0 \equiv a_0^{-1} \pmod x$</span> we will compute the sequence <span class="arithmatex">$B_k$</span> such that <span class="arithmatex">$AB_k \equiv 1 \pmod{x^{2^k}}$</span> with the complexity</p>
+<div class="arithmatex">$$T(n) = T(n/2) + O(n \log n) = O(n \log n).$$</div>
+<p>The algorithm here might seem a bit more complicated than the first one, but it has a very solid and practical reasoning behind it, as well as a great generalization potential if looked from a different perspective, which would be explained further below.</p>
+<h3 id="euclidean-division">Euclidean division<a class="headerlink" href="#euclidean-division" title="Permanent link">&para;</a></h3>
+<p>Consider two polynomials <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span> of degrees <span class="arithmatex">$n$</span> and <span class="arithmatex">$m$</span>. As it was said earlier you can rewrite <span class="arithmatex">$A(x)$</span> as</p>
+<div class="arithmatex">$$A(x) = B(x) D(x) + R(x), \deg R &lt; \deg B.$$</div>
+<p>Let <span class="arithmatex">$n \geq m$</span>, it would imply that <span class="arithmatex">$\deg D = n - m$</span> and the leading <span class="arithmatex">$n-m+1$</span> coefficients of <span class="arithmatex">$A$</span> don't influence <span class="arithmatex">$R$</span>. It means that you can recover <span class="arithmatex">$D(x)$</span> from the largest <span class="arithmatex">$n-m+1$</span> coefficients of <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span> if you consider it as a system of equations.</p>
+<p>The system of linear equations we're talking about can be written in the following form:</p>
+<div class="arithmatex">$$\begin{bmatrix} a_n \\ \vdots \\ a_{m+1} \\ a_{m} \end{bmatrix} = \begin{bmatrix}
+b_m &amp; \dots &amp; 0 &amp; 0 \\
+\vdots &amp; \ddots &amp; \vdots &amp; \vdots \\
+\dots &amp; \dots &amp; b_m &amp; 0 \\
+\dots &amp; \dots &amp; b_{m-1} &amp; b_m
+\end{bmatrix} \begin{bmatrix}d_{n-m} \\ \vdots \\ d_1 \\ d_0\end{bmatrix}$$</div>
+<p>From the looks of it, we can conclude that with the introduction of reversed polynomials</p>
+<div class="arithmatex">$$A^R(x) = x^nA(x^{-1})= a_n + a_{n-1} x + \dots + a_0 x^n$$</div>
+<div class="arithmatex">$$B^R(x) = x^m B(x^{-1}) = b_m + b_{m-1} x + \dots + b_0 x^m$$</div>
+<div class="arithmatex">$$D^R(x) = x^{n-m}D(x^{-1}) = d_{n-m} + d_{n-m-1} x + \dots + d_0 x^{n-m}$$</div>
+<p>the system may be rewritten as</p>
+<div class="arithmatex">$$A^R(x) \equiv B^R(x) D^R(x) \pmod{x^{n-m+1}}.$$</div>
+<p>From this you can unambiguously recover all coefficients of <span class="arithmatex">$D(x)$</span>:</p>
+<div class="arithmatex">$$\boxed{D^R(x) \equiv A^R(x) (B^R(x))^{-1} \pmod{x^{n-m+1}}}$$</div>
+<p>And from this, in turn, you can recover <span class="arithmatex">$R(x)$</span> as <span class="arithmatex">$R(x) = A(x) - B(x)D(x)$</span>.</p>
+<p>Note that the matrix above is a so-called triangular <a href="https://en.wikipedia.org/wiki/Toeplitz_matrix">Toeplitz matrix</a> and, as we see here, solving system of linear equations with arbitrary Toeplitz matrix is, in fact, equivalent to polynomial inversion. Moreover, inverse matrix of it would also be triangular Toeplitz matrix and its entries, in terms used above, are the coefficients of <span class="arithmatex">$(B^R(x))^{-1} \pmod{x^{n-m+1}}$</span>.</p>
+<h2 id="calculating-functions-of-polynomial">Calculating functions of polynomial<a class="headerlink" href="#calculating-functions-of-polynomial" title="Permanent link">&para;</a></h2>
+<h3 id="newtons-method">Newton's method<a class="headerlink" href="#newtons-method" title="Permanent link">&para;</a></h3>
+<p>Let's generalize the Sieveking–Kung algorithm. Consider equation <span class="arithmatex">$F(P) = 0$</span> where <span class="arithmatex">$P(x)$</span> should be a polynomial and <span class="arithmatex">$F(x)$</span> is some polynomial-valued function defined as</p>
+<div class="arithmatex">$$F(x) = \sum\limits_{i=0}^\infty \alpha_i (x-\beta)^i,$$</div>
+<p>where <span class="arithmatex">$\beta$</span> is some constant. It can be proven that if we introduce a new formal variable <span class="arithmatex">$y$</span>, we can express <span class="arithmatex">$F(x)$</span> as</p>
+<div class="arithmatex">$$F(x) = F(y) + (x-y)F'(y) + (x-y)^2 G(x,y),$$</div>
+<p>where <span class="arithmatex">$F'(x)$</span> is the derivative formal power series defined as</p>
+<div class="arithmatex">$$F'(x) = \sum\limits_{i=0}^\infty (i+1)\alpha_{i+1}(x-\beta)^i,$$</div>
+<p>and <span class="arithmatex">$G(x, y)$</span> is some formal power series of <span class="arithmatex">$x$</span> and <span class="arithmatex">$y$</span>. With this result we can find the solution iteratively.</p>
+<p>Let <span class="arithmatex">$F(Q_k) \equiv 0 \pmod{x^{a}}$</span>. We need to find <span class="arithmatex">$Q_{k+1} \equiv Q_k + x^a C \pmod{x^{2a}}$</span> such that <span class="arithmatex">$F(Q_{k+1}) \equiv 0 \pmod{x^{2a}}$</span>.</p>
+<p>Substituting <span class="arithmatex">$x = Q_{k+1}$</span> and <span class="arithmatex">$y=Q_k$</span> in the formula above, we get</p>
+<div class="arithmatex">$$F(Q_{k+1}) \equiv F(Q_k) + (Q_{k+1} - Q_k) F'(Q_k) + (Q_{k+1} - Q_k)^2 G(x, y) \pmod x^{2a}.$$</div>
+<p>Since <span class="arithmatex">$Q_{k+1} - Q_k \equiv 0 \pmod{x^a}$</span>, it also holds that <span class="arithmatex">$(Q_{k+1} - Q_k)^2 \equiv 0 \pmod{x^{2a}}$</span>, thus</p>
+<div class="arithmatex">$$0 \equiv F(Q_{k+1}) \equiv F(Q_k) + (Q_{k+1} - Q_k) F'(Q_k) \pmod{x^{2a}}.$$</div>
+<p>The last formula gives us the value of <span class="arithmatex">$Q_{k+1}$</span>:</p>
+<div class="arithmatex">$$\boxed{Q_{k+1} = Q_k - \dfrac{F(Q_k)}{F'(Q_k)} \pmod{x^{2a}}}$$</div>
+<p>Thus, knowing how to invert polynomials and how to compute <span class="arithmatex">$F(Q_k)$</span>, we can find <span class="arithmatex">$n$</span> coefficients of <span class="arithmatex">$P$</span> with the complexity</p>
+<div class="arithmatex">$$T(n) = T(n/2) + f(n),$$</div>
+<p>where <span class="arithmatex">$f(n)$</span> is the time needed to compute <span class="arithmatex">$F(Q_k)$</span> and <span class="arithmatex">$F'(Q_k)^{-1}$</span> which is usually <span class="arithmatex">$O(n \log n)$</span>.</p>
+<p>The iterative rule above is known in numerical analysis as <a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton's method</a>.</p>
+<h4 id="hensels-lemma">Hensel's lemma<a class="headerlink" href="#hensels-lemma" title="Permanent link">&para;</a></h4>
+<p>As was mentioned earlier, formally and generically this result is known as <a href="https://en.wikipedia.org/wiki/Hensel%27s_lemma">Hensel's lemma</a> and it may in fact used in even broader sense when we work with a series of nested rings. In this particular case we worked with a sequence of polynomial remainders modulo <span class="arithmatex">$x$</span>, <span class="arithmatex">$x^2$</span>, <span class="arithmatex">$x^3$</span> and so on.</p>
+<p>Another example where Hensel's lifting might be helpful are so-called <a href="https://en.wikipedia.org/wiki/P-adic_number">p-adic numbers</a> where we, in fact, work with the sequence of integer remainders modulo <span class="arithmatex">$p$</span>, <span class="arithmatex">$p^2$</span>, <span class="arithmatex">$p^3$</span> and so on. For example, Newton's method can be used to find all possible <a href="https://en.wikipedia.org/wiki/Automorphic_number">automorphic numbers</a> (numbers that end on itself when squared) with a given number base. The problem is left as an exercise to the reader. You might consider <a href="https://acm.timus.ru/problem.aspx?space=1&amp;num=1698">this</a> problem to check if your solution works for <span class="arithmatex">$10$</span>-based numbers.</p>
+<h3 id="logarithm">Logarithm<a class="headerlink" href="#logarithm" title="Permanent link">&para;</a></h3>
+<p>For the function <span class="arithmatex">$\ln P(x)$</span> it's known that: </p>
+<div class="arithmatex">$$
+\boxed{(\ln P(x))' = \dfrac{P'(x)}{P(x)}}
+$$</div>
+<p>Thus we can calculate <span class="arithmatex">$n$</span> coefficients of <span class="arithmatex">$\ln P(x)$</span> in <span class="arithmatex">$O(n \log n)$</span>.</p>
+<h3 id="inverse-series_1">Inverse series<a class="headerlink" href="#inverse-series_1" title="Permanent link">&para;</a></h3>
+<p>Turns out, we can get the formula for <span class="arithmatex">$A^{-1}$</span> using Newton's method.
+For this we take the equation <span class="arithmatex">$A=Q^{-1}$</span>, thus:</p>
+<div class="arithmatex">$$F(Q) = Q^{-1} - A$$</div>
+<div class="arithmatex">$$F'(Q) = -Q^{-2}$$</div>
+<div class="arithmatex">$$\boxed{Q_{k+1} \equiv Q_k(2-AQ_k) \pmod{x^{2^{k+1}}}}$$</div>
+<h3 id="exponent">Exponent<a class="headerlink" href="#exponent" title="Permanent link">&para;</a></h3>
+<p>Let's learn to calculate <span class="arithmatex">$e^{P(x)}=Q(x)$</span>. It should hold that <span class="arithmatex">$\ln Q = P$</span>, thus:</p>
+<div class="arithmatex">$$F(Q) = \ln Q - P$$</div>
+<div class="arithmatex">$$F'(Q) = Q^{-1}$$</div>
+<div class="arithmatex">$$\boxed{Q_{k+1} \equiv Q_k(1 + P - \ln Q_k) \pmod{x^{2^{k+1}}}}$$</div>
+<h3 id="k-th-power"><span class="arithmatex">$k$</span>-th power<a class="headerlink" href="#k-th-power" title="Permanent link">&para;</a></h3>
+<p>Now we need to calculate <span class="arithmatex">$P^k(x)=Q$</span>. This may be done via the following formula:</p>
+<div class="arithmatex">$$Q = \exp\left[k \ln P(x)\right]$$</div>
+<p>Note though, that you can calculate the logarithms and the exponents correctly only if you can find some initial <span class="arithmatex">$Q_0$</span>.</p>
+<p>To find it, you should calculate the logarithm or the exponent of the constant coefficient of the polynomial.</p>
+<p>But the only reasonable way to do it is if <span class="arithmatex">$P(0)=1$</span> for <span class="arithmatex">$Q = \ln P$</span> so <span class="arithmatex">$Q(0)=0$</span> and if <span class="arithmatex">$P(0)=0$</span> for <span class="arithmatex">$Q = e^P$</span> so <span class="arithmatex">$Q(0)=1$</span>.</p>
+<p>Thus you can use formula above only if <span class="arithmatex">$P(0) = 1$</span>. Otherwise if <span class="arithmatex">$P(x) = \alpha x^t T(x)$</span> where <span class="arithmatex">$T(0)=1$</span> you can write that:</p>
+<div class="arithmatex">$$\boxed{P^k(x) = \alpha^kx^{kt} \exp[k \ln T(x)]}$$</div>
+<p>Note that you also can calculate some <span class="arithmatex">$k$</span>-th root of a polynomial if you can calculate <span class="arithmatex">$\sqrt[k]{\alpha}$</span>, for example for <span class="arithmatex">$\alpha=1$</span>.</p>
+<h2 id="evaluation-and-interpolation">Evaluation and Interpolation<a class="headerlink" href="#evaluation-and-interpolation" title="Permanent link">&para;</a></h2>
+<h3 id="chirp-z-transform">Chirp-z Transform<a class="headerlink" href="#chirp-z-transform" title="Permanent link">&para;</a></h3>
+<p>For the particular case when you need to evaluate a polynomial in the points <span class="arithmatex">$x_r = z^{2r}$</span> you can do the following:</p>
+<div class="arithmatex">$$A(z^{2r}) = \sum\limits_{k=0}^n a_k z^{2kr}$$</div>
+<p>Let's substitute <span class="arithmatex">$2kr = r^2+k^2-(r-k)^2$</span>. Then this sum rewrites as:</p>
+<div class="arithmatex">$$\boxed{A(z^{2r}) = z^{r^2}\sum\limits_{k=0}^n (a_k z^{k^2}) z^{-(r-k)^2}}$$</div>
+<p>Which is up to the factor <span class="arithmatex">$z^{r^2}$</span> equal to the convolution of the sequences <span class="arithmatex">$u_k = a_k z^{k^2}$</span> and <span class="arithmatex">$v_k = z^{-k^2}$</span>.</p>
+<p>Note that <span class="arithmatex">$u_k$</span> has indexes from <span class="arithmatex">$0$</span> to <span class="arithmatex">$n$</span> here and <span class="arithmatex">$v_k$</span> has indexes from <span class="arithmatex">$-n$</span> to <span class="arithmatex">$m$</span> where <span class="arithmatex">$m$</span> is the maximum power of <span class="arithmatex">$z$</span> which you need.</p>
+<p>Now if you need to evaluate a polynomial in the points <span class="arithmatex">$x_r = z^{2r+1}$</span> you can reduce it to the previous task by the transformation <span class="arithmatex">$a_k \to a_k z^k$</span>.</p>
+<p>It gives us an <span class="arithmatex">$O(n \log n)$</span> algorithm when you need to compute values in powers of <span class="arithmatex">$z$</span>, thus you may compute the DFT for non-powers of two.</p>
+<p>Another observation is that <span class="arithmatex">$kr = \binom{k+r}{2} - \binom{k}{2} - \binom{r}{2}$</span>. Then we have</p>
+<div class="arithmatex">$$\boxed{A(z^r) = z^{-\binom{r}{2}}\sum\limits_{k=0}^n \left(a_k z^{-\binom{k}{2}}\right)z^{\binom{k+r}{2}}}$$</div>
+<p>The coefficient of <span class="arithmatex">$x^{n+r}$</span> of the product of the polynomials <span class="arithmatex">$A_0(x) = \sum\limits_{k=0}^n a_{n-k}z^{-\binom{n-k}{2}}x^k$</span> and <span class="arithmatex">$A_1(x) = \sum\limits_{k\geq 0}z^{\binom{k}{2}}x^k$</span> equals <span class="arithmatex">$z^{\binom{r}{2}}A(z^r)$</span>. You can use the formula <span class="arithmatex">$z^{\binom{k+1}{2}}=z^{\binom{k}{2}+k}$</span> to calculate the coefficients of <span class="arithmatex">$A_0(x)$</span> and <span class="arithmatex">$A_1(x)$</span>.</p>
+<h3 id="multi-point-evaluation">Multi-point Evaluation<a class="headerlink" href="#multi-point-evaluation" title="Permanent link">&para;</a></h3>
+<p>Assume you need to calculate <span class="arithmatex">$A(x_1), \dots, A(x_n)$</span>. As mentioned earlier, <span class="arithmatex">$A(x) \equiv A(x_i) \pmod{x-x_i}$</span>. Thus you may do the following:</p>
+<ol>
+<li>Compute a segment tree such that in the segment <span class="arithmatex">$[l,r)$</span> stands the product <span class="arithmatex">$P_{l, r}(x) = (x-x_l)(x-x_{l+1})\dots(x-x_{r-1})$</span>.</li>
+<li>Starting with <span class="arithmatex">$l=1$</span> and <span class="arithmatex">$r=n+1$</span> at the root node. Let <span class="arithmatex">$m=\lfloor(l+r)/2\rfloor$</span>. Let's move down to <span class="arithmatex">$[l,m)$</span> with the polynomial <span class="arithmatex">$A(x) \pmod{P_{l,m}(x)}$</span>.</li>
+<li>This will recursively compute <span class="arithmatex">$A(x_l), \dots, A(x_{m-1})$</span>, now do the same for <span class="arithmatex">$[m,r)$</span> with <span class="arithmatex">$A(x) \pmod{P_{m,r}(x)}$</span>.</li>
+<li>Concatenate the results from the first and second recursive call and return them.</li>
+</ol>
+<p>The whole procedure will run in <span class="arithmatex">$O(n \log^2 n)$</span>.</p>
+<h3 id="interpolation">Interpolation<a class="headerlink" href="#interpolation" title="Permanent link">&para;</a></h3>
+<p>There's a direct formula by Lagrange to interpolate a polynomial, given set of pairs <span class="arithmatex">$(x_i, y_i)$</span>:</p>
+<div class="arithmatex">$$\boxed{A(x) = \sum\limits_{i=1}^n y_i \prod\limits_{j \neq i}\dfrac{x-x_j}{x_i - x_j}}$$</div>
+<p>Computing it directly is a hard thing but turns out, we may compute it in <span class="arithmatex">$O(n \log^2 n)$</span> with a divide and conquer approach:</p>
+<p>Consider <span class="arithmatex">$P(x) = (x-x_1)\dots(x-x_n)$</span>. To know the coefficients of the denominators in <span class="arithmatex">$A(x)$</span> we should compute products like: </p>
+<div class="arithmatex">$$
+P_i = \prod\limits_{j \neq i} (x_i-x_j)
+$$</div>
+<p>But if you consider the derivative <span class="arithmatex">$P'(x)$</span> you'll find out that <span class="arithmatex">$P'(x_i) = P_i$</span>. Thus you can compute <span class="arithmatex">$P_i$</span>'s via evaluation in <span class="arithmatex">$O(n \log^2 n)$</span>.</p>
+<p>Now consider the recursive algorithm done on same segment tree as in the multi-point evaluation. It starts in the leaves with the value <span class="arithmatex">$\dfrac{y_i}{P_i}$</span> in each leaf.</p>
+<p>When we return from the recursion we should merge the results from the left and the right vertices as <span class="arithmatex">$A_{l,r} = A_{l,m}P_{m,r} + P_{l,m} A_{m,r}$</span>.</p>
+<p>In this way when you return back to the root you'll have exactly <span class="arithmatex">$A(x)$</span> in it.
+The total procedure also works in <span class="arithmatex">$O(n \log^2 n)$</span>.</p>
+<h2 id="gcd-and-resultants">GCD and Resultants<a class="headerlink" href="#gcd-and-resultants" title="Permanent link">&para;</a></h2>
+<p>Assume you're given polynomials <span class="arithmatex">$A(x) = a_0 + a_1 x + \dots + a_n x^n$</span> and <span class="arithmatex">$B(x) = b_0 + b_1 x + \dots + b_m x^m$</span>.</p>
+<p>Let <span class="arithmatex">$\lambda_0, \dots, \lambda_n$</span> be the roots of <span class="arithmatex">$A(x)$</span> and let <span class="arithmatex">$\mu_0, \dots, \mu_m$</span> be the roots of <span class="arithmatex">$B(x)$</span> counted with their multiplicities.</p>
+<p>You want to know if <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span> have any roots in common. There are two interconnected ways to do that.</p>
+<h3 id="euclidean-algorithm">Euclidean algorithm<a class="headerlink" href="#euclidean-algorithm" title="Permanent link">&para;</a></h3>
+<p>Well, we already have an <a href="euclid-algorithm.html">article</a> about it. For an arbitrary  domain you can write the Euclidean algorithm as easy as:</p>
+<div class="highlight"><pre><span></span><code><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span><span class="w"> </span><span class="nc">T</span><span class="o">&gt;</span>
+<span class="n">T</span><span class="w"> </span><span class="n">gcd</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="o">&amp;</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="o">&amp;</span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">T</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">b</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>It can be proven that for polynomials <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span> it will work in <span class="arithmatex">$O(nm)$</span>.</p>
+<h3 id="resultant">Resultant<a class="headerlink" href="#resultant" title="Permanent link">&para;</a></h3>
+<p>Let's calculate the product <span class="arithmatex">$A(\mu_0)\cdots A(\mu_m)$</span>. It will be equal to zero if and only if some <span class="arithmatex">$\mu_i$</span> is the root of <span class="arithmatex">$A(x)$</span>.</p>
+<p>For symmetry we can also multiply it with <span class="arithmatex">$b_m^n$</span> and rewrite the whole product in the following form:</p>
+<div class="arithmatex">$$\boxed{\mathcal{R}(A, B) = b_m^n\prod\limits_{j=0}^m A(\mu_j) = b_m^n a_m^n \prod\limits_{i=0}^n \prod\limits_{j=0}^m (\mu_j - \lambda_i)= (-1)^{mn}a_n^m \prod\limits_{i=0}^n B(\lambda_i)}$$</div>
+<p>The value defined above is called the resultant of the polynomials <span class="arithmatex">$A(x)$</span> and <span class="arithmatex">$B(x)$</span>. From the definition you may find the following properties:</p>
+<ol>
+<li><span class="arithmatex">$\mathcal R(A, B) = (-1)^{nm} \mathcal R(B, A)$</span>.</li>
+<li><span class="arithmatex">$\mathcal R(A, B)= a_n^m b_m^n$</span> when <span class="arithmatex">$n=0$</span> or <span class="arithmatex">$m=0$</span>.</li>
+<li>If <span class="arithmatex">$b_m=1$</span> then <span class="arithmatex">$\mathcal R(A - CB, B) = \mathcal R(A, B)$</span> for an arbitrary polynomial <span class="arithmatex">$C(x)$</span> and <span class="arithmatex">$n,m \geq 1$</span>.</li>
+<li>From this follows <span class="arithmatex">$\mathcal R(A, B) = b_m^{\deg(A) - \deg(A-CB)}\mathcal R(A - CB, B)$</span> for arbitrary <span class="arithmatex">$A(x)$</span>, <span class="arithmatex">$B(x)$</span>, <span class="arithmatex">$C(x)$</span>.</li>
+</ol>
+<p>Miraculously it means that resultant of two polynomials is actually always from the same ring as their coefficients!</p>
+<p>Also these properties allow us to calculate the resultant alongside the Euclidean algorithm, which works in <span class="arithmatex">$O(nm)$</span>.</p>
+<div class="highlight"><pre><span></span><code><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span><span class="w"> </span><span class="nc">T</span><span class="o">&gt;</span>
+<span class="n">T</span><span class="w"> </span><span class="n">resultant</span><span class="p">(</span><span class="n">poly</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">poly</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">is_zero</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">deg</span><span class="p">()</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">bpow</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">lead</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">deg</span><span class="p">());</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">pw</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">deg</span><span class="p">();</span>
+<span class="w">        </span><span class="n">a</span><span class="w"> </span><span class="o">%=</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
+<span class="w">        </span><span class="n">pw</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">deg</span><span class="p">();</span>
+<span class="w">        </span><span class="n">base</span><span class="w"> </span><span class="n">mul</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bpow</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">lead</span><span class="p">(),</span><span class="w"> </span><span class="n">pw</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">base</span><span class="p">((</span><span class="n">b</span><span class="p">.</span><span class="n">deg</span><span class="p">()</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">deg</span><span class="p">()</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="mi">-1</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<span class="w">        </span><span class="n">base</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">resultant</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">);</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">mul</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="half-gcd-algorithm">Half-GCD algorithm<a class="headerlink" href="#half-gcd-algorithm" title="Permanent link">&para;</a></h3>
+<p>There is a way to calculate the GCD and resultants in <span class="arithmatex">$O(n \log^2 n)$</span>.</p>
+<p>The procedure to do so implements a <span class="arithmatex">$2 \times 2$</span> linear transform which maps a pair of polynomials <span class="arithmatex">$a(x)$</span>, <span class="arithmatex">$b(x)$</span> into another pair <span class="arithmatex">$c(x), d(x)$</span> such that <span class="arithmatex">$\deg d(x) \leq \frac{\deg a(x)}{2}$</span>. If you're careful enough, you can compute the half-GCD of any pair of polynomials with at most <span class="arithmatex">$2$</span> recursive calls to the polynomials which are at least <span class="arithmatex">$2$</span> times smaller.</p>
+<p>The specific details of the algorithm are somewhat tedious to explain, however you can find its implementation in the library, as <code>half_gcd</code> function.</p>
+<p>After half-GCD is implemented, you can repeatedly apply it to polynomials until you're reduced to the pair of <span class="arithmatex">$\gcd(a, b)$</span> and <span class="arithmatex">$0$</span>.</p>
+<h2 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.codechef.com/problems/RNG">CodeChef - RNG</a></li>
+<li><a href="https://codeforces.com/gym/102129/problem/D">CodeForces - Basis Change</a></li>
+<li><a href="https://codeforces.com/gym/102129/problem/G">CodeForces - Permutant</a></li>
+<li><a href="https://codeforces.com/gym/102129/problem/C">CodeForces - Medium Hadron Collider</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+  <aside class="md-source-file">
+    
+    
+    
+      
+  
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Contributeurs">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+      
+    </span>
+    <nav>
+      
+        <a href="mailto:benjabriataher@gmail.com">Taher</a>
+    </nav>
+  </span>
+
+    
+    
+  </aside>
+
+
+  
+
+
+
+
+                
               </article>
             </div>
           
@@ -6370,12 +7385,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["content.action.edit", "navigation.tabs", "navigation.instant"], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "navigation.tabs", "navigation.instant"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
-        <script src="/javascript/config.js"></script>
+        <script src="../javascript/config.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
       
