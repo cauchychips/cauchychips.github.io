@@ -104,3 +104,11 @@ mjx-container > img {
 div.md-typeset__scrollwrap:has(table[data-review-enabled]) {
   overflow: visible;
 }
+
+.mjx-copytext {
+  font-size: 0;
+}
+
+.arithmatex{
+overflow-y: hidden !important;
+}
