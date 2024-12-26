@@ -105,10 +105,11 @@ div.md-typeset__scrollwrap:has(table[data-review-enabled]) {
   overflow: visible;
 }
 
+/* Visually hide latex code */
 .mjx-copytext {
-  font-size: 0;
+    font-size: 0;
 }
 
 .arithmatex{
-overflow-y: hidden !important;
+  overflow-y: hidden !important;
 }
