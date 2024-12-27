@@ -11,36 +11,29 @@ repo_url: 'https://github.com/cauchychips/cauchychips.github.io'
 edit_uri: 'https://github.com/cauchychips/cauchychips.github.io'
 
 # Copyright
-copyright: 'no Copyright tqt'
+copyright: 'pas de copyright tqt'
 
 # Contents
 nav:
   - Introduction:
     - Présentation: index.md
-    - 关于本项目: intro/about.md
-    - 如何参与: intro/htc.md
-    - OI Wiki 不是什么: intro/what-oi-wiki-is-not.md
-    - 格式手册: intro/format.md
-    - 数学符号表: intro/symbol.md
-    - F.A.Q.: intro/faq.md
-    - 镜像站列表: intro/mirrors.md
-    - 致谢: intro/thanks.md
+    - Symbols: intro/symbol.md
   - Informatique:
-    - 比赛相关简介: contest/index.md
-    - 赛事:
-      - OI 赛事与赛制: contest/oi.md
-      - ICPC/CCPC 赛事与赛制: contest/icpc.md
-    - 题型:
-      - 题型概述: contest/problems.md
-      - 交互题: contest/interaction.md
-    - 学习路线: contest/roadmap.md
-    - 学习资源: contest/resources.md
-    - 技巧:
+    - Présentation: contest/index.md
+    - Exos d'implémentation:
+      - C: contest/oi.md
+      - Ocaml: contest/icpc.md
+    - Langages:
+      - Langages réguliers: contest/problems.md
+      - Automates: contest/interaction.md
+    - Graphes: contest/roadmap.md
+    - Algorithmique: contest/resources.md
+    - Programmation dynamique:
       - 读入、输出优化: contest/io.md
       - 分段打表: contest/dictionary.md
       - 常见错误: contest/common-mistakes.md
       - 常见技巧: contest/common-tricks.md
-    - 出题: contest/problemsetting.md
+    - Misc: contest/problemsetting.md
   - Mathématiques:
     - 工具软件简介: tools/index.md
     - 代码编辑工具:
@@ -216,131 +209,10 @@ nav:
     - 最小表示法: string/minimal-string.md
     - Lyndon 分解: string/lyndon.md
     - Main–Lorentz 算法: string/main-lorentz.md
-  - Maths à lire:
-    - 数学部分简介: math/index.md
-    - 符号: math/notation.md
-    - 进位制: math/base.md
-    - 位运算: math/bit.md
-    - 二进制集合操作: math/binary-set.md
-    - 平衡三进制: math/balanced-ternary.md
-    - 高精度计算: math/bignum.md
-    - 快速幂: math/binary-exponentiation.md
-    - 置换和排列: math/permutation.md
-    - 弧度制与坐标系: math/coordinate.md
-    - 复数: math/complex.md
-    - 数论:
-      - 数论基础: math/number-theory/basic.md
-      - 素数: math/number-theory/prime.md
-      - 最大公约数: math/number-theory/gcd.md
-      - 数论分块: math/number-theory/sqrt-decomposition.md
-      - 欧拉函数: math/number-theory/euler-totient.md
-      - 筛法: math/number-theory/sieve.md
-      - Meissel–Lehmer 算法: math/number-theory/meissel-lehmer.md
-      - 分解质因数: math/number-theory/pollard-rho.md
-      - 裴蜀定理: math/number-theory/bezouts.md
-      - 类欧几里德算法: math/number-theory/euclidean.md
-      - 欧拉定理 & 费马小定理: math/number-theory/fermat.md
-      - 乘法逆元: math/number-theory/inverse.md
-      - 线性同余方程: math/number-theory/linear-equation.md
-      - 中国剩余定理: math/number-theory/crt.md
-      - 升幂引理: math/number-theory/lift-the-exponent.md
-      - 威尔逊定理: math/number-theory/wilson.md
-      - 卢卡斯定理: math/number-theory/lucas.md
-      - 同余方程: math/number-theory/congruence-equation.md
-      - 二次剩余: math/number-theory/quad-residue.md
-      - 原根: math/number-theory/primitive-root.md
-      - 离散对数: math/number-theory/discrete-logarithm.md
-      - 剩余: math/number-theory/residue.md
-      - 莫比乌斯反演: math/number-theory/mobius.md
-      - 杜教筛: math/number-theory/du.md
-      - Powerful Number 筛: math/number-theory/powerful-number.md
-      - Min_25 筛: math/number-theory/min-25.md
-      - 洲阁筛: math/number-theory/zhou.md
-      - 连分数: math/number-theory/continued-fraction.md
-      - Stern–Brocot 树与 Farey 序列: math/number-theory/stern-brocot.md
-      - 二次域: math/number-theory/quadratic.md
-      - Pell 方程: math/number-theory/pell-equation.md
-    - 多项式与生成函数:
-      - 多项式与生成函数简介: math/poly/intro.md
-      - 代数基本定理: math/poly/fundamental.md
-      - 快速傅里叶变换: math/poly/fft.md
-      - 快速数论变换: math/poly/ntt.md
-      - 快速沃尔什变换: math/poly/fwt.md
-      - Chirp Z 变换: math/poly/czt.md
-      - 多项式牛顿迭代: math/poly/newton.md
-      - 多项式多点求值|快速插值: math/poly/multipoint-eval-interpolation.md
-      - 多项式初等函数: math/poly/elementary-func.md
-      - 常系数齐次线性递推: math/poly/linear-recurrence.md
-      - 多项式平移|连续点值平移: math/poly/shift.md
-      - 符号化方法: math/poly/symbolic-method.md
-      - Lagrange 反演: math/poly/lagrange-inversion.md
-      - 形式幂级数复合|复合逆: math/poly/comp-rev.md
-      - 普通生成函数: math/poly/ogf.md
-      - 指数生成函数: math/poly/egf.md
-      - 狄利克雷生成函数: math/poly/dgf.md
-    - 组合数学:
-      - 排列组合: math/combinatorics/combination.md
-      - 抽屉原理: math/combinatorics/drawer-principle.md
-      - 容斥原理: math/combinatorics/inclusion-exclusion-principle.md
-      - 斐波那契数列: math/combinatorics/fibonacci.md
-      - 错位排列: math/combinatorics/derangement.md
-      - 卡特兰数: math/combinatorics/catalan.md
-      - 斯特林数: math/combinatorics/stirling.md
-      - 贝尔数: math/combinatorics/bell.md
-      - 伯努利数: math/combinatorics/bernoulli.md
-      - Entringer Number: math/combinatorics/entringer.md
-      - Eulerian Number: math/combinatorics/eulerian.md
-      - 分拆数: math/combinatorics/partition.md
-      - 范德蒙德卷积: math/combinatorics/vandermonde-convolution.md
-      - Pólya 计数: math/combinatorics/polya.md
-      - 图论计数: math/combinatorics/graph-enumeration.md
-    - 线性代数:
-      - 线性代数简介: math/linear-algebra/index.md
-      - 向量: math/linear-algebra/vector.md
-      - 内积和外积: math/linear-algebra/product.md
-      - 矩阵: math/linear-algebra/matrix.md
-      - 初等变换: math/linear-algebra/elementary-operations.md
-      - 行列式: math/linear-algebra/determinant.md
-      - 线性空间: math/linear-algebra/vector-space.md
-      - 线性基: math/linear-algebra/basis.md
-      - 线性映射: math/linear-algebra/linear-mapping.md
-      - 特征多项式: math/linear-algebra/char-poly.md
-      - 对角化: math/linear-algebra/diagonalization.md
-      - Jordan标准型: math/linear-algebra/jordan.md
-    - 线性规划:
-      - 线性规划简介: math/linear-programming.md
-      - 单纯形算法: math/simplex.md
-    - 抽象代数:
-      - 基本概念: math/algebra/basic.md
-      - 群论: math/algebra/group-theory.md
-      - 环论: math/algebra/ring-theory.md
-      - 域论: math/algebra/field-theory.md
-      - Schreier–Sims 算法: math/algebra/schreier-sims.md
-    - 概率论:
-      - 基本概念: math/probability/basic-conception.md
-      - 条件概率与独立性: math/probability/conditional-probability.md
-      - 随机变量: math/probability/random-variable.md
-      - 随机变量的数字特征: math/probability/exp-var.md
-      - 概率不等式: math/probability/concentration-inequality.md
-    - 博弈论: 
-      - 博弈论简介: math/game-theory/intro.md
-      - 公平组合游戏: math/game-theory/impartial-game.md
-      - 非公平组合游戏: math/game-theory/partizan-game.md
-      - 反常游戏: math/game-theory/misere-game.md
-    - 数值算法:
-      - 插值: math/numerical/interp.md
-      - 数值积分: math/numerical/integral.md
-      - 高斯消元: math/numerical/gauss.md
-      - 牛顿迭代法: math/numerical/newton.md
-    - 傅里叶-莫茨金消元法: math/fourier-motzkin-elimination.md
-    - 序理论: math/order-theory.md
-    - 杨氏矩阵: math/young-tableau.md
-    - 拟阵: math/matroid.md
-    - Berlekamp–Massey 算法: math/berlekamp-massey.md
 
 # Theme
 theme:
-  name: null
+  name: material
   custom_dir: 'mkdocs-material/material/templates'
   static_templates:
     - 404.html
@@ -371,39 +243,19 @@ theme:
   features:
     - content.action.edit
     - navigation.tabs
-    - navigation.instant
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
 
-plugins: []
 
-hooks:
-  - hooks/on_env.py
-
-# Customization
-extra:
-  pagetime: 'on'
-  manifest: 'manifest.webmanifest'
-  githash: ''
-  #mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  
-#extra_javascript:
-#  - '_static/js/math-csr.js?math-csr'
-#  - 'assets/vendor/mathjax/es5/tex-mml-chtml.js?math-csr'
-#  - '{OIWikiFeedbackSystemFrontendJS}' # see: scripts/pre-build/install-feedback-sys-frontend.ts
-#  - '{OIWikiFeedbackSystemFrontendContentScript}' # see: scripts/pre-build/install-feedback-sys-frontend.ts
 extra_javascript:
-  - javascript/config.js
+  #- js/config.js
   - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 
 extra_css:
-  - '_static/css/extra.css?v=16'
-  # - '_static/css/offset-inject-debug.css'
-  # - '{OIWikiFeedbackSystemFrontendCSS}' # see: scripts/pre-build/install-feedback-sys-frontend.ts
+  - css/extra.css
 
-# Extensions
 markdown_extensions:
   - document-offsets-injection:
       # debug: true
@@ -441,3 +293,4 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.tabbed:
       alternate_style: true
+
